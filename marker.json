@@ -1,0 +1,141 @@
+{
+  "project_name": "Medical Care",
+  "": "",
+  "homepage_image": "mainmenubackground.jpg",
+  "ga_tracking_id": "UA-162868232-1",
+  "hotspots": [
+    {
+      "position": 1,
+      "latitude": "41.0873718",
+      "longitude": "-81.5416457",
+      "overlay_size": 5,
+      "overlay_offset_x": 0.51202417434057,
+      "overlay_offset_y": -2.1344952062933555,
+      "name": "Equitas Health: Akron Health Center",
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "The Equitas Health Akron Health Center provides a variety of holistic healthcare services, including Primary Care, Gender Affirming Care, HIV/STI Testing, HIV Specialty Care, PrEP Care, Mental Health Counseling, Recovery & Addiction Care, an on-site Pharmacy, and more.    Services through the Equitas Health Akron Health Center are primarily available on-site in Akron. Some medical, psychiatry, and counseling services are also available through telehealth (learn more at https://equitashealth.com/patient-resources/telehealth/).    Service Hours (Medical Care):    Mon: 8:00AM-5:00PM   Tues: 8:00AM-5:00PM   Weds: 9:00AM-6:00PM    Thurs: 8:00AM-5:00PM   Fri: 8:00AM-5:00PM   Sat: Closed   Sun: Closed    Service Hours (Pharmacy):    Mon: 9:00AM-5:00PM   Tues: 9:00AM-5:00PM   Weds: 10:00AM-6:00PM    Thurs: 9:00AM-5:00PM   Fri: 9:00AM-5:00PM    Sat: Closed   Sun: Closed    Holiday Closures (both Medical Care and Pharmacy): New Year’s Day, Martin Luther King Jr. Day, Chosen Family Day, Memorial Day, Juneteenth, Independence Day, Labor Day, Thanksgiving and the Friday after Thanksgiving, and Christmas (learn more at https://equitashealth.com/patient-resources/holiday-closures/).   ",
+          "background_image": "equitasS.jpg",
+          "": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 330-409-9505   Website: https://equitashealth.com/locations/akron-health-center/    Online Scheduling: https://equitashealth.formstack.com/forms/requestanappointment    Address: 636 W. Exchange St., Akron, OH 44302   Business Hours (Medical Care):   Mon: 8:00AM-5:00PM  Tues: 8:00AM-5:00PM  Weds: 9:00AM-6:00PM   Thurs: 8:00AM-5:00PM  Fri: 8:00AM-5:00PM  Sat: Closed  Sun: Closed   Business Hours (Pharmacy):   Mon: 9:00AM-5:00PM  Tues: 9:00AM-5:00PM  Weds: 10:00AM-6:00PM   Thurs: 9:00AM-5:00PM  Fri: 9:00AM-5:00PM   Sat: Closed  Sun: Closed   Holiday Closures (both Medical Care and Pharmacy): New Year’s Day, Martin Luther King Jr. Day, Chosen Family Day, Memorial Day, Juneteenth, Independence Day, Labor Day, Thanksgiving and the Friday after Thanksgiving, and Christmas (learn more at https://equitashealth.com/patient-resources/holiday-closures/).  ",
+          "background_image": "Contact Background (by Kaboompics.com on Pexels).jpg",
+          "": ""
+        }
+      ],
+      "panorama_image": "equitas360.jpg",
+      "": "",
+      " (copy)": "",
+      "media_pages": [
+        {
+          "title": "Pictures",
+          "content_type": 0,
+          "content_items": []
+        },
+        {
+          "title": "Audio",
+          "content_type": 1,
+          "content_items": []
+        },
+        {
+          "title": "Links",
+          "content_type": 2,
+          "content_items": [
+            {
+              "item": "https://equitashealth.com/locations/akron-health-center/",
+              "item_description": "Equitas Homepage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Planned Parenthood: Akron Health Center",
+      "position": 1,
+      "latitude": "41.0836153",
+      "longitude": "-81.5349756",
+      " (copy)": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "pparenthood360.jpg",
+      "overlay_size": 10,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "": "",
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "The Planned Parenthood Akron Health Center provides a variety of health and sex education services, including Birth Control, Emergency Contraception, Gender-Affirming Care, HIV Services, Pregnancy Testing and Planning, Prenatal and Postpartum Services, STD Testing and Treatment, Sexual and Reproductive Concerns, Vaccines, and Wellness and Preventative Care. In addition to scheduled appointments, Pregnancy Tests, Emergency Contraception, and Birth Control Refills are available on a walk-in basis during all business hours. Finally, guests can fill birth control prescriptions at their health center instead of the pharmacy.   Services through the Planned Parenthood Akron Health Center are primarily available on-site in Akron. However, the following services are also available through telehealth: Birth Control Prescriptions, Emergency Contraceptive Prescriptions, Gender-Affirming Care, HIV Services, and STD Testing and Treatment.   Service Hours:   Mon: 10:00AM-4:00PM  Tues: 9:00AM-6:00PM  Weds: 9:00AM-4:00PM  Thurs: 9:00AM-6:00PM  Fri: 9:00AM-2:00PM  Sat: 9:00AM-2:00PM  Sun: Closed   Holiday Closures: New Year's Day, Martin Luther King Day, Memorial Day, Juneteenth, Independence Day, Labor Day, Election Day, Thanksgiving Day, Christmas Eve, Christmas Day ",
+          "background_image": "PPS.jpg"
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 330-535-2671   Fax: 330-537-8141   Website: https://www.plannedparenthood.org/health-center/ohio/akron/44302/akron-health-center-3344-91230    Address: 444 W. Exchange St., Akron, OH 44302   Business Hours:   Mon: 10:00AM-4:00PM  Tues: 9:00AM-6:00PM  Weds: 9:00AM-4:00PM  Thurs: 9:00AM-6:00PM  Fri: 9:00AM-2:00PM  Sat: 9:00AM-2:00PM  Sun: Closed   Holiday Closures: New Year's Day, Martin Luther King Day, Memorial Day, Juneteenth, Independence Day, Labor Day, Election Day, Thanksgiving Day, Christmas Eve, Christmas Day ",
+          "background_image": "Contact Background (by Kaboompics.com on Pexels).jpg",
+          "descriptive_audio": ""
+        }
+      ]
+    },
+    {
+      "name": "Peter Maurin Center of Akron",
+      "position": 2,
+      "latitude": "41.0570699",
+      "longitude": "-81.5293626",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "petermaurin360.jpg",
+      "overlay_size": 10,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "": "",
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "The Peter Maurin Center of Akron’s volunteer retired registered nurse offers blood pressure and blood sugar screenings. She also offers information on a variety of common health conditions, such as diabetes and hypertension.   All medical services offered by the Peter Maurin Center of Akron are available on-site in Akron.   Service Hours: Second and fourth Tuesday of every month, 11:00AM-2:00PM ",
+          "background_image": "maurinS.jpg",
+          "": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 330-258-9006   Online Message: https://www.petermaurincenter.com/contact    Website: https://www.petermaurincenter.com/    Address: 1096 Old S. Main St., Akron, OH 44301   Contact Hours: 24/7 ",
+          "background_image": "hours.jpg",
+          "": ""
+        }
+      ],
+      "media_pages": []
+    },
+    {
+      "name": "Cleveland Clinic: Akron General Hospital",
+      "position": 3,
+      "latitude": "41.0785562",
+      "longitude": "-81.5317515",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "akrongeneral360.jpg",
+      "overlay_size": 10,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "The Cleveland Clinic Akron General Hospital offers a wide variety of medical services, including Primary Care, Specialty Appointments, Emergency Services, Laboratory Services, Imaging Services, Mammography Services, and a Pharmacy. To learn all 47 of the specialties offered at the Cleveland Clinic Akron General Hospital, please visit https://my.clevelandclinic.org/locations/akron-general/specialties.    Services through the Cleveland Clinic Akron General Hospital are primarily available on-site in Akron. However, some Primary Care and Specialty Appointment offices may offer telehealth services. Discuss telehealth options with each individual department when scheduling.   Service Hours (Facility): 24/7   Service Hours (Emergency): 24/7   Service Hours (Specialty Appointments): Varies. See more information by selecting the appropriate specialty at https://my.clevelandclinic.org/locations/akron-general/specialties   Service Hours (Pharmacy):    Mon: 8:00AM-7:00PM  Tues: 8:00AM-7:00PM  Weds: 8:00AM-7:00PM  Thurs: 8:00AM-7:00PM  Fri: 8:00AM-7:00PM  Sat: 9:00AM-1:00PM  Sun: Closed   Service Hours (Laboratory, Appointment Recommended):    Mon: 7:00AM-4:30PM  Tues: 7:00AM-4:30PM   Weds: 7:00AM-4:30PM  Thurs: 7:00AM-4:30PM  Fri: 7:00AM-4:30PM  Sat: Closed  Sun: Closed   Service Hours (Imaging):    Mon: 7:00AM-6:00PM  Tues: 7:00AM-6:00PM  Weds: 7:00AM-6:00PM  Thurs: 7:00AM-6:00PM  Fri: 7:00AM-6:00PM  Sat: Closed  Sun: Closed   Service Hours (Mammography, Appointment Needed):    Mon: 7:30AM-4:00PM  Tues: 7:30AM-4:00PM  Weds: 7:30AM-4:00PM  Thurs: 7:30AM-4:00PM  Fri: 7:30AM-4:00PM  Sat: Closed  Sun: Closed ",
+          "background_image": "akronccS.jpg",
+          "": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "hone: 330-344-6000   Website: https://my.clevelandclinic.org/locations/akron-general    Address: 1 Akron General Ave., Akron, OH 44307   Business Hours (Facility): 24/7   Business Hours (Emergency): 24/7   Business Hours (Specialty Appointments): Varies. See more information by selecting the appropriate specialty at https://my.clevelandclinic.org/locations/akron-general/specialties   Business Hours (Pharmacy):    Mon: 8:00AM-7:00PM  Tues: 8:00AM-7:00PM  Weds: 8:00AM-7:00PM  Thurs: 8:00AM-7:00PM  Fri: 8:00AM-7:00PM  Sat: 9:00AM-1:00PM  Sun: Closed   Business Hours (Laboratory, Appointment Recommended):    Mon: 7:00AM-4:30PM  Tues: 7:00AM-4:30PM   Weds: 7:00AM-4:30PM  Thurs: 7:00AM-4:30PM  Fri: 7:00AM-4:30PM  Sat: Closed  Sun: Closed   Business Hours (Imaging):    Mon: 7:00AM-6:00PM  Tues: 7:00AM-6:00PM  Weds: 7:00AM-6:00PM  Thurs: 7:00AM-6:00PM  Fri: 7:00AM-6:00PM  Sat: Closed  Sun: Closed   Business Hours (Mammography, Appointment Needed):    Mon: 7:30AM-4:00PM  Tues: 7:30AM-4:00PM  Weds: 7:30AM-4:00PM  Thurs: 7:30AM-4:00PM  Fri: 7:30AM-4:00PM  Sat: Closed  Sun: Closed ",
+          "background_image": "hours.jpg",
+          "": ""
+        }
+      ],
+      "media_pages": []
+    }
+  ]
+}
