@@ -1,0 +1,698 @@
+{
+  "project_name": "Mental Health, Addiction and Family Support",
+  "intro_audio": "",
+  "homepage_image": "mainmenubackground.jpg",
+  "ga_tracking_id": "UA-162868232-1",
+  "hotspots": [
+
+{
+      "name": "Urban Minority Alcoholism Drug Abuse & Outreach Program (A-UMADAOP)",
+      "position": "1",
+      "latitude": "41.0948572",
+      "longitude": "-81.5381376",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360urbanminorityalcoholdrugoutreach-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "Akron UMADAOP is a minority-focused organization that provides substance abuse education, prevention, and treatment to youths in Akron and surrounding areas. Services include support groups, reentry programs for justice-involved youths, and clinical guidance including assessments, intensive outpatient day and evening programs, and counseling. Additionally, Akron UMADOP offers leadership programs designed to help youths develop a sense of responsibility for their community and foster personal growth.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 330-379-3467 \n \nWebsite: http://www.akronumadaop.com/ \n \nAddress: 665 W. Market St., Akron, OH 44303 \n \nBusiness Hours (Administrative): Mon-Fri 8:30A-5:30A \n \nClinical Hours: Mon-Thurs 8:30A-9:00P   |||   Fri 8:30A-5:30P   |||   Saturday (by appointment) 10:00A-2:00P",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+{
+      "name": "Community Health Center (CHC) Addiction Services Akron",
+      "position": "2",
+      "latitude": "41.0759829",
+      "longitude": "-81.494447",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360communityhealthcenter-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "CHC Addiction Services specializes in treating men and women experiencing addiction and behavioral health concerns. Their well-rounded programming is designed to empower clients through the principles of safety, choice, collaboration, trustworthiness, and empowerment. After completing an intake session, a team of professionals work to find the best treatment options for your unique needs, which may include outpatient programming, residential care, or medication-assisted treatment.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 330-434-4141 \n \nWebsite: https://chcakron.org/ \n \nAddress: 725 E. Market St., Akron, OH 44305 \n \nBusiness Hours: Mon 5:30A-7:30P   |||   Tues, Thurs, Fri 5:30A-4:00P   |||   Weds 5:30A-7:00P   |||   Sat 5:30A-10:30A",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+
+{
+      "name": "Interval Brotherhood Home, Inc. Main Campus",
+      "position": "3",
+      "latitude": "40.9946814",
+      "longitude": "-81.5202734",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360ibhmain-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "Interval Brotherhood Home (IBH) provides support for clients experiencing substance use concerns and in need of recovery programming. IBH programming varies in intensity, including individual outpatient counseling, day treatments, residential housing that offers 24/7 supportive care, recovery housing, and aftercare programming (including volunteering opportunities and sober support groups). As IBH’s main campus, this location is home to a wide array of services, including residential and recovery housing. It provides serene green space, modern recreation facilities, and complete care including pharmacy, lab, and individual and group counseling in addition to educational and community support facilities. \n \nIBH also provides family education, expressive arts, medication-assisted treatment, mental health services, physical fitness, and spirituality support services.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 330-644-4095 \n \nWebsite: http://www.ibh.org/ \n \nAddress: 3445 S. Main St., Akron, OH 44319 \n \nBusiness Hours: Mon-Fri 8:00A-4:00P",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+
+{
+      "name": "Interval Brotherhood Home, Inc. Satellite Campus",
+      "position": "4",
+      "latitude": "41.0436027",
+      "longitude": "-81.5268282",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360ibhsatellite-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "Interval Brotherhood Home (IBH) provides support for clients experiencing substance use concerns and in need of recovery programming. IBH programming varies in intensity, including individual outpatient counseling, day treatments, residential housing that offers 24/7 supportive care, recovery housing, and aftercare programming (including volunteering opportunities and sober support groups). Allowing clients to enter at virtually any point in the recovery process, this satellite location provides outpatient programming and an array of services focused on counseling, education, and providing a network of support. \n \nIBH also provides family education, expressive arts, medication-assisted treatment, mental health services, physical fitness, and spirituality support services.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 330-644-4095 \n \nWebsite: https://www.ibh.org/ \n \nAddress: 1601 S. Main St., Akron, OH 44301 \n \nOffice Hours: Mon-Fri 8:30A-4:30P \n \nBusiness Hours (Walk-in assessments): Mon, Thurs 12:00P-2:00P   |||   Tues, Weds 9:00A-11:00A",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+
+{
+      "name": "The Front Porch- South Street Ministries",
+      "position": "5",
+      "latitude": "41.0610425",
+      "longitude": "-81.5182799",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360thefrontporch-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "South Street Ministries aspires to create community through fostering authenticity, leadership, and transformation within the South Akron Recovery community. The Front Porch is dry and drug-free community space that hosts 8 recovery meetings, including Alcoholics Anonymous, Narcotics Anonymous, and more, as well as peer recovery support groups. For complete list of meetings and schedules, please visit https://southstreetministries.org/the-front-porch/. \n \nSouth St. Ministries also provides services in the Ex-Offender category.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 330-761-1992 \n \nWebsite: https://southstreetministries.org/ \n \nAddress: 798 Grant St., Akron, OH 44311 \n \nBusiness Hours: Mon-Sat 7:00A-3:00P",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+
+{
+      "name": "Urban Ounce of Prevention",
+      "position": "6",
+      "latitude": "41.0616667",
+      "longitude": "-81.5688229",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360uozofprevention-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "Urban Ounce of Prevention offers comprehensive substance use disorder programming and prevention programming for youths. They also offer a comprehensive mental health treatment program. \n \nFirst, their EXODUS program is a culturally-informed outpatient substance use disorder treatment program for women. It provides individual, intensive and non-intensive group counseling, crisis intervention, and comprehensive case management services. Transportation, childcare, and other supportive services, including assistance in obtaining housing, are provided.  Services are also provided for persons with co-occurring disorders. \n \nSecond, their CROSS ROADS program is a culturally-informed outpatient substance use disorder treatment program for me. It includes individual, intensive and non-intensive group counseling, crisis intervention, anger management, and comprehensive case management services.  Supportive services include transportation as well as assistance in obtaining employment and housing. \n \nThird, NEW BEGINNINGS focuses on reuniting families when children have been separated from their parents and are placed in custodial care.  The program also provides services to address the following health-related issues:  1) alcohol/ drug use and abuse problems; 2) infant mortality and low-birth weight; 3) domestic violence; and 4) cultivating healthy parent-child relationships utilizing evidence-based parenting techniques. \n \nFourth, their Building Dreams Mentoring Program is an after-school program designed to involve positive role models in the lives of youths and to promote positive cultural lifestyles. Educational sessions are provided in the areas of alcohol, tobacco, and drug prevention. The youth participate in activities that offer preparation for academic excellence and civic leadership. During group discussions, youth learn life skills that include effective communication, conflict resolution, anger management, values clarification, decision making, and goal setting. \n \nFifth, their mental health treatment program, HOPE, is designed to bring an end to emotional pain and self-defeating behaviors by increasing coping skills and developing tools and cultivating skills that lead to goal achievement and life satisfaction. The program provides individual, day treatment, crisis intervention, and Community Psychiatric Supportive Treatment (CPST) services.  Supportive services include transportation as well as assistance in obtaining housing and employment.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 330-867-5400  \n \nWebsite: http://www.uopbhs.org/  \n \nAddress: 1735 S. Hawkins Ave., Akron, OH 44320  \n \nBusiness Hours: Mon-Fri 8:30A-7:00P",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+
+{
+      "name": "Greenleaf Family Center",
+      "position": "7",
+      "latitude": "41.0675656",
+      "longitude": "-81.5188598",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360greenleaffamilycenter-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "Greenleaf Family Services offers comprehensive mental health, addiction, grief, and family support services, including individual, couples, and family counseling; services for children, teens, and adults; and many support programs for families and specific interest groups. They offer services both in-person and through telehealth. \n \nFor mental health support, Greenleaf Family Center offers counseling for individuals, couples, and families, including services for children, teens, and adults. Some of their primary services include treating depression, anxiety, and other mood disorders; anger management; alcohol/drug abuse and addictive behaviors; autism and other neurodivergent conditions; LGBTQ+ identities and related clinical issues; parenting; teen emotional regulation; trauma/PTSD; grief; and more. \n \nFor addiction support, Greenleaf Family Services provides diagnostic assessments, individual counseling (including the treatment of co-occurring disorders), an addiction outpatient support group, and aftercare for individuals who have completed IOP or other treatment/recovery programs who would benefit from ongoing support to help maintain a recovery environment.  \n \nFor family services, Greenleaf Family Services offers individual, couple, and family counseling, as well as three targeted programs. First, the Parenting Group is a 12-week program that meets once a week. Parents will learn about childhood development, appropriate behavior expectations, different parenting styles, effective communication techniques, and understanding discipline versus punishment. It requires an assessment and treatment planning session prior to the start of the group. Groups are facilitated by a licensed clinician, last one hour, and available in the evenings. \n \nSecond, PEERS, or Parent Education, Empowerment, Resources and Support, is a supportive program for parents of children with complex needs - emotional, behavioral, developmental, or educational. Parent Advocates work together with parents to assist them in managing school issues, juvenile justice involvement, mental health issues, the developmental disabilities system, and/or the child welfare system. PEERS is a free program for Summit County families and Portage County families who are involved with the Portage County Developmental Disabilities system. If you feel a Parent Advocate could be of help to you or you have more questions about the program, please contact Marjorie Cook, Advocate and Program Manager, at 330-203-3848. \n \nThird, the Family Success Network (FSN) is a free, family support services program that includes family coaching, parenting tips, money management, financial assistance for parenting needs, and connections to additional community supports to help families succeed. For additional questions please contact the Program Manager, Heather Finklestein at 330-376-9494, Ext. 220, or at fheather@greenleafctr.org. \n \nFinally, Greenleaf Family Center offers a variety of support groups, including addiction, parenting, parenting a child with complex needs (e.g., emotional, behavioral, developmental, or educational complications), grief, and more. Contact the Center for specific group offerings and times.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 330-376-9494 ext. 209  \n \nVideo Phone: 234-525-6176 \n \nWebsite: http://www.greenleafctr.org/   |||   https://www.greenleafctr.org/alcohol-drug-counseling  \n \nAddress: 580 Grant St., Akron, OH 44311 \n \nBusiness Hours (Behavioral Health Appointments): Mon-Thurs 9:00A-8:00P   |||   Fri by appointment only",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+
+{
+      "name": "Friday Night Freedom",
+      "position": "8",
+      "latitude": "41.136906",
+      "longitude": "-81.4844736",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360stjohnsepiscopalchurch-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "Friday Night Freedom is a regularly occurring, open LGBTQ+ affirming Alcoholics Anonymous (AA) meeting hosted in St. John’s Episcopal Church. AA discussion meetings center around one specific aspect of alcohol addiction and recovery. Leaders begin by sharing their own thoughts and experiences related to the topic, which often comes from an AA text, such as the Big Book. Then, others can join in and add their own reflections. \n \nOpen AA meetings in Ohio do not restrict attendance to AA members only. Anyone from the community is welcome to attend and learn more about how AA operates and what the 12-step recovery model includes. This includes alcoholics as well as their friends, relatives, and loved ones.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "St. John’s Episcopal Church (Host) Phone: 330-928-2139 \n \nEmail: stjohnscfo@sbcglobal.net  \n \nWebsite: https://www.stjohnscf.org/ \n \nSober.com Website Listing: https://sober.com/aa-meeting/friday-night-freedom/  \n \nAddress: St. John's Episcopal Church 2220 Second St., Cuyahoga Falls, OH 44221 \n \nContact Hours: Mon-Fri 9:00A-2:00P \n \nLGBTQ+ Friendly AA Meetings: Fri 7:30P-8:30P",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+
+{
+      "name": "Lambda Study Group",
+      "position": "9",
+      "latitude": "41.115822",
+      "longitude": "-81.582397",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360fairlawnwestunitedchurch-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "The Lambda Study Group is a regularly occurring, open LGBTQ+ affirming Alcoholics Anonymous (AA) meeting hosted in the Fairlawn West United Church of Christ. AA discussion meetings center around one specific aspect of alcohol addiction and recovery. Leaders begin by sharing their own thoughts and experiences related to the topic, which often comes from an AA text, such as the Big Book. Then, others can join in and add their own reflections. \n \nOpen AA meetings in Ohio do not restrict attendance to AA members only. Anyone from the community is welcome to attend and learn more about how AA operates and what the 12-step recovery model includes. This includes alcoholics as well as their friends, relatives, and loved ones.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Fairlawn West United Church of Christ (Host) Phone: 330-864-2179 \n \nEmail: secretary@fairlawnwest.org  \n \nWebsite: https://fairlawnwest.org/  \n \nSober.com Website Listing: https://sober.com/aa-meeting/lambda-study-group-akron/  \n \nAddress: Fairlawn West United Church of Christ 2095 W Market St., Akron, OH 44313 \n \nAA Meeting Hours: Weds 7:30P-8:30P",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+
+{
+      "name": "Bayard Rustin LGBTQ+ Center | Akron AIDS Collaborative",
+      "position": "10",
+      "latitude": "41.0882752",
+      "longitude": "-81.5409204",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360bayardrustin-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "The Bayard Rustin LGBTQ+ Center, home of the Akron AIDS Collaborative, is the only statewide LGBTQ+ drop-in facility. They provide mental health support, art therapy, and outreach case management, including mental health referrals.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 330-983-4044 \n \nBayard Rustin Center Website: https://www.rustincenter.org/  \n \nAkron AIDS Collaborative Website: https://ohioaac.org/ \n \nAddress: 652 W. Exchange St., Akron, OH 44302 \n \nBusiness Hours: Mon-Fri 10:00A-4:00P",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+
+{
+      "name": "Kindred Spirit Behavioral Health",
+      "position": "11",
+      "latitude": "41.1341394",
+      "longitude": "-81.6304181",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360kindredspiritbehavioral-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "Kindred Spirit Behavioral Health employs a holistic, African-centered approach to offer mental health assessments, evaluations, and counseling for individuals, couples, and families. Their team is trained in trauma-informed care, sharing the same background and lived experiences as the population they serve. Their treatment framework targets the impacts of racial trauma and oppression, promoting advocacy, empowerment, and healing to marginalized communities. They also offer case management for community support services, school-based counseling, and performance coaching for athletes.  \n \nKindred Spirit Behavioral Health offers both in-person and telehealth services.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 234-466-0445 \n \nWebsite: https://www.kindredspiritbh.org/ \n \nAddress: 3618 W. Market St., Ste. 15, Akron, OH, 44333 \n \nBusiness Hours: Mon-Thurs 8:30A-8:00P   |||   Fri, Sat 8:30A-3:00P",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+
+{
+      "name": "Minority Behavioral Health Group",
+      "position": "12",
+      "latitude": "41.083637",
+      "longitude": "-81.5686201",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360minoritybehavioralhealth-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "Minority Behavioral Health Group (MBHG) is a community health agency that consists of psychologists, counselors, pastors, case managers, and administrative personnel who are committed to providing culturally appropriate and comprehensive behavioral health services to Summit, Portage, Stark, Franklin and Cuyahoga counties. MBHG was the first and only African-American nationally accredited and state certified community mental health agency in the state of Ohio. \n \nMBHG provides a variety of counseling services, including individual and group therapy (informed by Belief Systems Analysis, which is grounded in African philosophy and an African-centered worldview), assessments, psychological testing, school consultations (for youth), and external referrals.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 330-374-1199 \n \nWebsite: https://mbhg.org/ \n \nAddress: 1293 Copley Rd., Akron, OH 44320 \n \nBusiness Hours: Mon-Thurs 9:00A-5:00P   |||   Fri 9:00A-3:00P",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+
+{
+      "name": "Hope & Healing Survivor Resource Center",
+      "position": "13",
+      "latitude": "41.0707451",
+      "longitude": "-81.4887486",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360hopehealingsurvivorcenter-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "The Hope and Healing Survivor Resource Center supports all survivors of domestic violence, sexual assault, and human trafficking, as well as their loved ones. Their goal is to empower survivors while providing emergency shelter and crisis services, support groups, and guidance through the court system and education to prevent future victimizations. The Hope and Healing Center therapists work with survivors 12 years and older in a confidential environment, and their therapeutic services are free of charge to any community member or resident of their shelters. \n \nThe Hope & Healing Survivor Resource Center also offers services in the Shelter, Housing, & Utilities category.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 330-374-0740 \n \nEmergency 24/7 Hotline: 330-374-1111 \n \nWebsite: https://hopeandhealingresources.org/ \n \nAddress: 974 E. Market St., Akron, OH 44305 \n \nBusiness Hours: Mon-Fri 9:00A-4:00P",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+
+{
+      "name": "University of Akron Clinic for Individual and Family Counseling",
+      "position": "14",
+      "latitude": "41.0803473",
+      "longitude": "-81.5069401",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360uacounseling-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "The University of Akron (UA) Clinic for Individual and Family Counseling offers outpatient individual, couples, family, and group counseling services to people of all backgrounds and ages. Their outpatient counseling services include a wide variety of specialties, listed on https://www.uakron.edu/cifc/services.dot. Notable specialties include disordered mood, grief, communication skills, family and parenting development, gender identity, LGBTQIA+ empowerment, personal growth, and coping with trauma and stress. Utilizing trauma-informed care, their focus is on holistic wellness and personal growth and on promoting a culture of safety, empowerment and healing. \n \nThe UA Clinic for Individual and Family Counseling is a training facility. Although they can serve a supporting role for many specialized concerns, they are usually not the sole provider for treatment of: psychotic symptoms, suicidality or crisis, alcohol/drug abuse, physical/sexual abuse, or cognitive impairments. In addition, because they are a training facility focused on personal growth, they do not provide formal psychological/court evaluations or custody/legal recommendations. However, staff will be able to assist you in identifying different or additional services as is appropriate. \n \nThe UA Clinic for Individual and Family Counseling also provides services in the Employment, Financial, & Legal Support category.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 330-972-6822 \n \nWebsite: http://www.uakron.edu/cifc \n \nIntake Webform: https://akron.qualtrics.com/jfe/form/SV_9uCkrOaZFmV4mtn \n \nAddress: 27 S. Forge St., 2nd Floor, Akron, OH 44325 \n \nBusiness Hours: Mon-Thurs 10:00A-9:00P by appointment only",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+
+{
+      "name": "Cleveland Clinic Justin T. Rogers Hospice Care Center",
+      "position": "15",
+      "latitude": "41.1084146",
+      "longitude": "-81.6331856",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360hospicecenter-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "The Justin T. Rogers Hospice Care Center, operated by the Cleveland Clinic, provides free bereavement support groups for all community members who have experienced a loss. Grief Series classes are held several times per year for members of the community wishing to learn about grief and loss. For individuals seeking private support, individual grief counseling is also available. A licensed social worker provides counseling, while spiritual support is offered by hospice chaplains if desired. Please visit https://my.clevelandclinic.org/patients/information/bereavement/support-groups for the current schedule, which includes in-person and virtual options.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 330-665-1455 \n \nBereavement Support Groups: 216-444-9819 \n \nWebsite with Support Group Schedule: https://my.clevelandclinic.org/patients/information/bereavement/support-groups \n \nAddress: 3358 Ridgewood Rd., Akron, OH 44333 \n \nBusiness Hours: 24/7",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+
+{
+      "name": "PFLAG",
+      "position": "16",
+      "latitude": "41.0813496",
+      "longitude": "-81.5086817",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360firstcongregationalchurch-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "PFLAG offers support through their monthly meetings for LGBTQ+ people, those who love them, and allies. This support group offers compassionate, loving people sharing their stories and resources.  \n \nPFLAG seeks to promote understanding of LGBTQ+ topics and issues. They share LGBTQ+ stories and resources with libraries, churches, health centers, schools, employee resource groups, community organizations, and businesses. In addition to Support Groups, PFLAG can be contacted for speakers, resources, and discussions.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 330-412-0289 \n \nEmail: pflagakron@aol.com  \n \nWebsite: https://www.pflagakron.com/  \n \nWeb Contact: https://www.pflagakron.com/contact  \n \nAddress: First Congregational Church of Akron, 292 E. Market St., Akron, OH 44308 \n \nLGBTQ+ Support Group Hours: Third Thurs of each month, 7:00P",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+
+{
+      "name": "Survivors Sharing Our Unique Life Experiences (SSOULE) HIV Support Group",
+      "position": "17",
+      "latitude": "41.0813496",
+      "longitude": "-81.5086817",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360firstcongregationalchurch-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "The SSOULE (Survivors Sharing Our Unique Life Experiences) Group is a new HIV support group in Summit County. The group is run by and for people living with HIV. Monthly meetings, in a social setting, offering support, resources, and a place for people with HIV to share their fears, concerns, struggles, and triumphs with each other.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 330-461-6857 \n \nEmail: robbygeelucas@gmail.com  \n \nWebsite: https://ssoulegroup.wordpress.com/  \n \nAddress: First Congregation Church of Akron 292 E. Market St., Akron, OH 44308 (in the Dining Hall) \n \nSupport Group Hours: Second Weds of each month, 6:00-8:00P",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+
+{
+      "name": "OutSupport",
+      "position": "18",
+      "latitude": "41.138559",
+      "longitude": "-81.862772",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360outsupport-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "OutSupport hosts monthly LGBTQ+ support and informational meetings for adults (age 18+) where you can share your unfolding stories, ask questions, meet new friends, enjoy ongoing personal support, and lend your encouragement to others dealing with similar issues.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Email: contact@outsupport.org  \n \nWebsite: https://www.outsupport.org/   |||   https://www.facebook.com/OutSupportMedinaOhio/  \n \nWeb Contact: https://www.outsupport.org/reach-out  \n \nAddress: Contact them by their contact page, email, or Facebook group for the meeting location \n \nLGBTQ+ Support Group Hours: Second Thurs of every month, 7:00P-9:00P",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+
+{
+      "name": "Street Outreach Services (SOS) – ShelterCare",
+      "position": "19",
+      "latitude": "41.1040479",
+      "longitude": "-81.516234",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360sossheltercare-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "Street Outreach Services (SOS) offers street-based and drop-in services to individuals ages 16-24 experiencing homelessness in Summit County. The SOS drop-in center provides access to on-site support groups, as well as a variety of other services. \n \nSOS also provides services in the Shelter, Housing, & Utilities; Employment, Legal, & Financial Support; Transportation; and Food Assistance categories.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 234-571-2807 \n \nWebsite: https://sc72.org/  \n \nAddress: 39 W. Cuyahoga Falls Ave., Akron, OH 44310 \n \nBusiness Hours: Mon, Sat 12:00P-4:00P   |||   Tues 12:00P-8:00P   |||   Weds, Thurs 1:00P-8:00P   |||   Fri by appointment only 9:00A-4:00P",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+
+{
+      "name": "The Front Porch – South Street Ministries",
+      "position": "20",
+      "latitude": "41.0610425",
+      "longitude": "-81.5182799",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360thefrontporch-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "South Street Ministries aspires to create community through fostering authenticity, leadership, and transformation within the South Akron Recovery community. The Front Porch is dry and drug-free community space that hosts 8 recovery meetings, including Alcoholics Anonymous, Narcotics Anonymous, and more, as well as peer recovery support groups. For complete list of meetings and schedules, please visit https://southstreetministries.org/the-front-porch/. \n \nThe Front Porch also provides services in the Ex-Offender category.",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 330-761-1992 \n \nWebsite: https://southstreetministries.org/ \n \nAddress: 798 Grant St., Akron, OH 44311 \n \nBusiness Hours: Mon-Sat 7:00A-3:00P",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        },
+   
+
+
+{
+      "name": "Ohio Guidestone – Summit County Fathers’ Feelings Project",
+      "position": "21",
+      "latitude": "41.128724",
+      "longitude": "-81.613539",
+      "overlay": "",
+      "virtual_object": "",
+      "isSubHotspot": false,
+      "panorama_image": "360ohioguidestone-l.jpg",
+      "overlay_size": 5,
+      "overlay_offset_x": 0,
+      "overlay_offset_y": 0,
+      "start_audio": "",
+    
+      "main_pages": [
+        {
+          "title": "SERVICES",
+          "description": "Ohio Guidestone is currently offering the Father’s Feelings© Research Study, which encourages dads to express their thoughts and emotions about being a parent. Father’s Feelings© provides fathers with a clinical screening for paternal depression, brief coaching and intervention, and referrals to clinical and various social and community services during the perinatal phase. It aims to recognize and address mental health challenges faced by men, encourage paternal engagement and attachment with their child(ren), and raise awareness while enhancing access to resources relevant and tailored for fathers and men. \n \nTo participate in the Father’s Feelings Research Study, you must be a male father, have a child 12 months old or younger, be an Ohio resident, and be over the age of 18 (though fathers ages 16-17 can join with parental consent).",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        },
+        {
+          "title": "CONTACT",
+          "description": "Phone: 216-372-6130 \n \nWebsite: https://institute.ohioguidestone.org/research/research-studies/   |||   https://institute.ohioguidestone.org/innovations/fathers-feelings/  \n \nAddress: 3094 W. Market St., Suite 105, Fairlawn, OH 44333 \n \nBusiness Hours: Mon-Fri 9:00A-5:00P, evenings by appointment",
+          "background_image": "AHHgenericbg.jpg",
+          "descriptive_audio": ""
+        }
+      ],
+     "media_pages": []
+        }
+]
+}

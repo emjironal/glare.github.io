@@ -1,88 +1,274 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+	<head>
+		<title>AAC HEALTH HUB</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="main.css">
+<style>
+html, body {
+    height:100%;
+    width:100%;
+    background:black;
+    background-color:black; 
+   
+}
+*{ margin: 0}
+.homebtn {
+position: absolute;
+    width:25%;
+    height:15%;
+    background-color:#dedede;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    margin:5px;
+    padding:1%;
+     float: center;
+  top: 55%;
+  left: 10%;
+}
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link rel="icon" href="./favicon.ico" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://unpkg.com/react-leaflet-markercluster/dist/styles.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,700&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap"
-        rel="stylesheet">
-    <meta name="viewport"
-        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0" />
-    <meta name="theme-color" content="#fff" />
-    <link rel="manifest" href="./manifest.json" />
-    <link href="./static/css/2.645d714c.chunk.css" rel="stylesheet">
-    <link href="./static/css/main.0631546d.chunk.css" rel="stylesheet">
-</head>
+.homebtn2 {
+position: absolute;
+    width:25%;
+    height:15%;
+    background-color:#dedede;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    margin:5px;
+    padding:1%;
+     float: center;
+   top: 55%;
+   left: 37.5%;
 
-<body><noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <script>!function (e) { function r(r) { for (var n, l, f = r[0], i = r[1], a = r[2], c = 0, s = []; c < f.length; c++)l = f[c], Object.prototype.hasOwnProperty.call(o, l) && o[l] && s.push(o[l][0]), o[l] = 0; for (n in i) Object.prototype.hasOwnProperty.call(i, n) && (e[n] = i[n]); for (p && p(r); s.length;)s.shift()(); return u.push.apply(u, a || []), t() } function t() { for (var e, r = 0; r < u.length; r++) { for (var t = u[r], n = !0, f = 1; f < t.length; f++) { var i = t[f]; 0 !== o[i] && (n = !1) } n && (u.splice(r--, 1), e = l(l.s = t[0])) } return e } var n = {}, o = { 1: 0 }, u = []; function l(r) { if (n[r]) return n[r].exports; var t = n[r] = { i: r, l: !1, exports: {} }; return e[r].call(t.exports, t, t.exports, l), t.l = !0, t.exports } l.m = e, l.c = n, l.d = function (e, r, t) { l.o(e, r) || Object.defineProperty(e, r, { enumerable: !0, get: t }) }, l.r = function (e) { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, l.t = function (e, r) { if (1 & r && (e = l(e)), 8 & r) return e; if (4 & r && "object" == typeof e && e && e.__esModule) return e; var t = Object.create(null); if (l.r(t), Object.defineProperty(t, "default", { enumerable: !0, value: e }), 2 & r && "string" != typeof e) for (var n in e) l.d(t, n, function (r) { return e[r] }.bind(null, n)); return t }, l.n = function (e) { var r = e && e.__esModule ? function () { return e.default } : function () { return e }; return l.d(r, "a", r), r }, l.o = function (e, r) { return Object.prototype.hasOwnProperty.call(e, r) }, l.p = "./"; var f = this.webpackJsonpGLARE = this.webpackJsonpGLARE || [], i = f.push.bind(f); f.push = r, f = f.slice(); for (var a = 0; a < f.length; a++)r(f[a]); var p = i; t() }([])</script>
-    <script src="./static/js/2.9364dd89.chunk.js"></script>
-    <script src="./static/js/main.d18f711b.chunk.js"></script>
-    <script>
-        // Code made with ChatGPT
-        function onPathChange(callback) {
-          let currentPath = location.pathname;
+}
+
+.homebtn3 {
+position: absolute;
+    width:25%;
+    height:15%;
+    background-color:#dedede;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    margin:5px;
+    padding:1%;
+     float: center;
+top: 55%;
+  right: 10%;
+
+}
+
+.homebtn4 {
+position: absolute;
+    width:25%;
+    height:15%;
+    background-color:#dedede;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    margin:5px;
+    padding:1%;
+     float: center;
+top: 55%;
+  left: 70%;
+
+}
+  #navBar {
+      height: 5%;
+      width: 95%;
+      display: fixed;
+      justify-content: center;
+      align-items: center;
+      background-color: #333;
+      position: fixed;
+      bottom: 0;
+      left: 5%;
+      z-index: 1000;
+      top: 10%;
+    }
+
+    .nav-button {
+      background-color: #555;
+      color: white;
+      cursor: pointer;
+      font-size: 2vw;
+        border-color: white;
+ 
       
-          function checkPath() {
-            if (location.pathname !== currentPath) {
-              currentPath = location.pathname;
-              callback(currentPath);
-            }
-          }
+    }
+  #navBar2 {
+      height: 5%;
+      width: 100%;
+      display: fixed;
+      justify-content: right;
+      align-items: center;
+      background-color: #333;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      z-index: 1000;
+      top: 0%;
+       right: 20%;
+      width:30%;
+       border-color: white;
+
+    }
+
+
+    .nav-button2 {
+      background-color: #555;
+      color: white;
+      cursor: pointer;
+      font-size: 2vw;
+        border-color: white;
+ 
       
-          // Patch pushState and replaceState to detect internal SPA navigation
-          const pushState = history.pushState;
-          const replaceState = history.replaceState;
-      
-          history.pushState = function () {
-            pushState.apply(this, arguments);
-            checkPath();
-          };
-          history.replaceState = function () {
-            replaceState.apply(this, arguments);
-            checkPath();
-          };
-      
-          // Detect back/forward browser actions
-          window.addEventListener("popstate", checkPath);
-      
-          // Also trigger once on initial page load
-          window.addEventListener("load", () => callback(location.pathname));
+    }
+
+
+    .nav-button:hover {
+      background-color: #777;
+    }
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10%;
+}
+
+
+.iframe {
+  position: fixed;
+  width: 100%;
+  top: 20%;
+}
+
+
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Your title here</title>
+
+	</head>
+
+
+<body>
+
+<img src="logo.png" alt="logo" class="center" style="background-color:black;">
+
+    <!-- Navigation bar -->
+  <div id="navBar2">
+
+
+    <button class="nav-button2" onclick="navigate('https://kent.qualtrics.com/jfe/form/SV_07eJdctqEg38QMC')">FEEDBACK</button>
+
+
+    <button class="nav-button2" onclick="navigate('phonenumbers.html')">HOTLINES</button>
+
+    <button class="nav-button2" onclick="navigate('help.html')">HELP</button>
+<div>
+
+
+    <!-- four large buttons which take up the whole screen, leading to the different pages -->
+
+
+    <!-- Navigation bar -->
+  <div id="navBar">
+
+    <button class="nav-button" onclick="navigate('https://drosophila.biology.kent.edu/users/rclement/extras/glare/AAC/new/MentalHealth/')">Mental Health, Addiction, & Family Support</button>
+  
+
+    <button class="nav-button" onclick="navigate('https://drosophila.biology.kent.edu/users/rclement/extras/glare/AAC/new/Shelter_Housing_Utilities/')">Shelter, Housing, & Utilities</button>
+
+
+
+      <button class="nav-button" onclick="navigate('https://drosophila.biology.kent.edu/users/rclement/extras/glare/AAC/new/food/')">Food Pantries and Meals </button>
+
+
+    <button class="nav-button" onclick="navigate('https://drosophila.biology.kent.edu/users/rclement/extras/glare/AAC/new/Financial_Legal/')">Financial & Legal Support</button>
+
+
+
+    <button class="nav-button" onclick="navigate('https://drosophila.biology.kent.edu/users/rclement/extras/glare/AAC/new/medical/')">Medical Care</button>
+
+
+
+    <button class="nav-button" onclick="navigate('https://drosophila.biology.kent.edu/users/rclement/extras/glare/AAC/new/Transportation/')">Transportation</button>
+
+
+  <button class="nav-button" onclick="navigate('https://drosophila.biology.kent.edu/users/rclement/extras/glare/AAC/new/ex-offender_services/')">Ex-offender Services</button>
+
+
+    <button class="nav-button" onclick="navigate('https://drosophila.biology.kent.edu/users/rclement/extras/glare/AAC/new/Disability_Resources/')">Disability Resources</button>
+
+  </div>
+
+
+  <!-- Content iframe -->
+  <iframe id="mainFrame" class="iframe" name="mainFrame" src="about:blank" width="100%" height="70%" allowfullscreen="false" style="background: #000000;bottom:0px" ></iframe>
+
+  
+
+  <script>
+    function navigate(url) {
+      document.getElementById('mainFrame').src = url;
+    }
+
+
+    const iframe = document.getElementById('mainFrame');
+
+    // Function to detect fullscreen change
+    function onFullScreenChange() {
+        if (document.fullscreenElement === iframe || document.webkitFullscreenElement === iframe) {
+            console.log('The iframe is in fullscreen mode.');
+ iframe.style.width = '100%';
+    iframe.style.height = '80%';
+
+
+const event = new KeyboardEvent('keydown', {
+  key: 'Enter',
+  code: 'Enter',
+  which: 13,
+  keyCode: 13,
+  bubbles: true,
+  cancelable: true
+});
+
+iframe.dispatchEvent(event);
+iframe.dispatchEvent(event);
+ document.exitFullscreen();
+        } else {
+            console.log('The iframe has exited fullscreen mode.');
         }
-      
-        // Your target function — runs only on /.../main
-        onPathChange((path) => {
-          if (path.endsWith("/main")) {
-            console.log("🟢 /main path loaded — running script...");
-      
-            // Optional delay to ensure React has rendered content
-            setTimeout(() => {
-              // Example: Wrap plain text URLs in #text
-              document.querySelectorAll("#text").forEach(el => {
-                if (!el.dataset.linksWrapped && el.textContent.includes("http")) {
-                  el.innerHTML = el.textContent.replace(
-                    /(?:https?:\/\/[^\s]+)/g,
-                    (url) =>
-                      `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`
-                  );
-                  el.dataset.linksWrapped = "true";
-                }
-              });
-            }, 300); // Adjust delay if needed
-          }
-        });
-      </script>
-      
-      
-      
-</body>
+    }
 
+    // Add event listener for fullscreen change
+    document.addEventListener('fullscreenchange', onFullScreenChange);
+    document.addEventListener('webkitfullscreenchange', onFullScreenChange);
+
+
+function makeAllBackgroundsBlack() {
+  // Select all elements on the page
+  const allElements = document.querySelectorAll('*');
+
+  // Loop through each element and set its background to black
+  allElements.forEach(element => {
+    element.style.backgroundColor = 'black';
+  });
+
+  // Also set the body and html background just in case
+  document.body.style.backgroundColor = 'black';
+  document.documentElement.style.backgroundColor = 'black';
+}
+
+// Call the function
+makeAllBackgroundsBlack();
+
+  </script>
+
+
+
+	</body>
 </html>
