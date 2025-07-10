@@ -58,9 +58,9 @@
           window.addEventListener("load", () => callback(location.pathname));
         }
       
-        // Your target function — runs only on /main
+        // Your target function — runs only on /.../main
         onPathChange((path) => {
-          if (path === "/main") {
+          if (path.endsWith("/main")) {
             console.log("🟢 /main path loaded — running script...");
       
             // Optional delay to ensure React has rendered content
