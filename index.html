@@ -86,7 +86,7 @@ top: 55%;
       top: 10%;
     }
 
-    .nav-button {
+    .nav-button button {
       background-color: #555;
       color: white;
       cursor: pointer;
@@ -114,7 +114,7 @@ top: 55%;
     }
 
 
-    .nav-button2 {
+    .nav-button button2 {
       background-color: #555;
       color: white;
       cursor: pointer;
@@ -125,7 +125,7 @@ top: 55%;
     }
 
 
-    .nav-button:hover {
+    .nav-button button:hover {
       background-color: #777;
     }
 
@@ -142,6 +142,22 @@ top: 55%;
   position: fixed;
   width: 100%;
   top: 20%;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #7aa8b7;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #c2c7c7;
 }
 
 
@@ -162,12 +178,12 @@ top: 55%;
   <div id="navBar2">
 
 
-    <button class="nav-button2" onclick="navigate('https://kent.qualtrics.com/jfe/form/SV_07eJdctqEg38QMC')">FEEDBACK</button>
+    <button class="nav-button button2" onclick="navigate('https://kent.qualtrics.com/jfe/form/SV_07eJdctqEg38QMC')">FEEDBACK</button>
 
 
-    <button class="nav-button2" onclick="navigate('phonenumbers.html')">HOTLINES</button>
+    <button class="nav-button button2" onclick="navigate('phonenumbers.html')">HOTLINES</button>
 
-    <button class="nav-button2" onclick="navigate('help.html')">HELP</button>
+    <button class="nav-button button2" onclick="navigate('help.html')">HELP</button>
 <div>
 
 
@@ -177,31 +193,31 @@ top: 55%;
     <!-- Navigation bar -->
   <div id="navBar">
 
-    <button class="nav-button" onclick="navigate('https://drosophila.biology.kent.edu/users/rclement/extras/glare/AAC/new/MentalHealth/')">Mental Health, Addiction, & Family Support</button>
+    <a class="nav-button button" href="/MentalHealth">Mental Health, Addiction, & Family Support</a>
   
 
-    <button class="nav-button" onclick="navigate('https://drosophila.biology.kent.edu/users/rclement/extras/glare/AAC/new/Shelter_Housing_Utilities/')">Shelter, Housing, & Utilities</button>
+    <a class="nav-button button" href="/Shelter_Housing_Utilities">Shelter, Housing, & Utilities</a>
 
 
 
-      <button class="nav-button" onclick="navigate('https://drosophila.biology.kent.edu/users/rclement/extras/glare/AAC/new/food/')">Food Pantries and Meals </button>
+      <a class="nav-button button" href="/food">Food Pantries and Meals </a>
 
 
-    <button class="nav-button" onclick="navigate('https://drosophila.biology.kent.edu/users/rclement/extras/glare/AAC/new/Financial_Legal/')">Financial & Legal Support</button>
-
-
-
-    <button class="nav-button" onclick="navigate('https://drosophila.biology.kent.edu/users/rclement/extras/glare/AAC/new/medical/')">Medical Care</button>
+    <a class="nav-button button" href="/Financial_Legal">Financial & Legal Support</a>
 
 
 
-    <button class="nav-button" onclick="navigate('https://drosophila.biology.kent.edu/users/rclement/extras/glare/AAC/new/Transportation/')">Transportation</button>
+    <a class="nav-button button" href="/medical">Medical Care</a>
 
 
-  <button class="nav-button" onclick="navigate('https://drosophila.biology.kent.edu/users/rclement/extras/glare/AAC/new/ex-offender_services/')">Ex-offender Services</button>
+
+    <a class="nav-button button" href="/Transportation">Transportation</a>
 
 
-    <button class="nav-button" onclick="navigate('https://drosophila.biology.kent.edu/users/rclement/extras/glare/AAC/new/Disability_Resources/')">Disability Resources</button>
+  <a class="nav-button button" href="/ex-offender_services">Ex-offender Services</a>
+
+
+    <a class="nav-button button" href="/Disability_Resources">Disability Resources</a>
 
   </div>
 
