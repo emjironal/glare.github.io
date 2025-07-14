@@ -86,7 +86,7 @@ top: 55%;
       top: 10%;
     }
 
-    .nav-button button {
+    .nav-button {
       background-color: #555;
       color: white;
       cursor: pointer;
@@ -114,7 +114,7 @@ top: 55%;
     }
 
 
-    .nav-button button2 {
+    .nav-button2 {
       background-color: #555;
       color: white;
       cursor: pointer;
@@ -125,7 +125,7 @@ top: 55%;
     }
 
 
-    .nav-button button:hover {
+    .nav-button:hover {
       background-color: #777;
     }
 
@@ -142,22 +142,6 @@ top: 55%;
   position: fixed;
   width: 100%;
   top: 20%;
-}
-
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  color: #ffffff;
-  background-color: #7aa8b7;
-  border-radius: 6px;
-  outline: none;
-  transition: 0.3s;
-}
-
-.button:hover {
-  background-color: #c2c7c7;
 }
 
 
@@ -193,31 +177,28 @@ top: 55%;
     <!-- Navigation bar -->
   <div id="navBar">
 
-    <a class="nav-button button" href="/MentalHealth">Mental Health, Addiction, & Family Support</a>
+    <button class="nav-button" onclick="navigate('./Financial_Legal')">Financial & Legal Support</button>
   
 
-    <a class="nav-button button" href="/Shelter_Housing_Utilities">Shelter, Housing, & Utilities</a>
+    <button class="nav-button" onclick="navigate('./Shelter_Housing_Utilities')">Shelter, Housing, & Utilities</button>
 
 
-
-      <a class="nav-button button" href="/food">Food Pantries and Meals </a>
-
-
-    <a class="nav-button button" href="./Financial_Legal">Financial & Legal Support</a>
+    <button class="nav-button" onclick="navigate('./food')">Food Pantries and Meals </button>
 
 
-
-    <a class="nav-button button" href="./medical">Medical Care</a>
-
+    <button class="nav-button" onclick="navigate('./Financial_Legal')">Financial & Legal Support</button>
 
 
-    <a class="nav-button button" href="./Transportation">Transportation</a>
+    <button class="nav-button" onclick="navigate('./medical')">Medical Care</button>
 
 
-  <a class="nav-button button" href="./ex-offender_services">Ex-offender Services</a>
+    <button class="nav-button" onclick="navigate('./Transportation')">Transportation</button>
 
 
-    <a class="nav-button button" href="./Disability_Resources">Disability Resources</a>
+    <button class="nav-button" onclick="navigate('./ex-offender_services')">Ex-offender Services</button>
+
+
+    <button class="nav-button" onclick="navigate('./Disability_Resources')">Disability Resources</button>
 
   </div>
 
