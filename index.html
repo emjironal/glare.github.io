@@ -146,8 +146,9 @@ top: 55%;
 
 
 </style>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
         <link href="styles.css" rel="stylesheet">
         <title>Your title here</title>
 
@@ -155,53 +156,42 @@ top: 55%;
 
 
 <body>
-
-<img src="logo.png" alt="logo" class="center" style="background-color:black;">
-
-    <!-- Navigation bar -->
-  <div id="navBar2">
-
-
-    <button class="nav-button button2" onclick="navigate('https://kent.qualtrics.com/jfe/form/SV_07eJdctqEg38QMC')">FEEDBACK</button>
-
-
-    <button class="nav-button button2" onclick="navigate('phonenumbers.html')">HOTLINES</button>
-
-    <button class="nav-button button2" onclick="navigate('help.html')">HELP</button>
-<div>
-
-
-    <!-- four large buttons which take up the whole screen, leading to the different pages -->
-
-
-    <!-- Navigation bar -->
-  <div id="navBar">
-
-    <button class="nav-button" onclick="navigate('./MentalHealth/')">Mental Health, Addiction, & Family Support</button>
-  
-
-    <button class="nav-button" onclick="navigate('./Shelter_Housing_Utilities')">Shelter, Housing, & Utilities</button>
-
-
-    <button class="nav-button" onclick="navigate('./food')">Food Pantries and Meals </button>
-
-
-    <button class="nav-button" onclick="navigate('./Financial_Legal')">Financial & Legal Support</button>
-
-
-    <button class="nav-button" onclick="navigate('./medical')">Medical Care</button>
-
-
-    <button class="nav-button" onclick="navigate('./Transportation')">Transportation</button>
-
-
-    <button class="nav-button" onclick="navigate('./ex-offender_services')">Ex-offender Services</button>
-
-
-    <button class="nav-button" onclick="navigate('./Disability_Resources')">Disability Resources</button>
-
-  </div>
-
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg bg-primary text-white">
+    <div class="container-fluid bg-primary text-white">
+      <a class="navbar-brand bg-primary text-white" href="#">
+        <img src="icon.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top bg-primary text-white">
+        Akron Health Hub
+      </a>
+      <div class="collapse navbar-collapse bg-primary text-white" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-primary text-white">
+          <li class="nav-item bg-primary text-white">
+            <button class="nav-link active bg-primary text-white" onclick="navigate('https://kent.qualtrics.com/jfe/form/SV_07eJdctqEg38QMC')">Feedback</button>
+          </li>
+          <li class="nav-item bg-primary text-white">
+            <button class="nav-link active bg-primary text-white" onclick="navigate('phonenumbers.html')">Hotlines</button>
+          </li>
+          <li class="nav-item bg-primary text-white">
+            <button class="nav-link active bg-primary text-white" onclick="navigate('help.html')">Help</button>
+          </li>
+          <li class="nav-item dropdown bg-primary text-white">
+            <a class="nav-link dropdown-toggle bg-primary text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tours
+            </a>
+            <ul class="dropdown-menu active bg-primary text-white">
+              <li><button class="dropdown-item bg-primary text-white" onclick="navigate('./MentalHealth/')">Mental Health, Addiction, & Family Support</button></li>
+              <li><button class="dropdown-item bg-primary text-white" onclick="navigate('./Shelter_Housing_Utilities')">Shelter, Housing, & Utilities</button></li>
+              <li><button class="dropdown-item bg-primary text-white" onclick="navigate('./food')">Food Pantries and Meals </button></li>
+              <li><button class="dropdown-item bg-primary text-white" onclick="navigate('./Financial_Legal')">Financial & Legal Support</button></li>
+              <li><button class="dropdown-item bg-primary text-white" onclick="navigate('./medical')">Medical Care</button></li>
+              <li><button class="dropdown-item bg-primary text-white" onclick="navigate('./Transportation')">Transportation</button></li>
+              <li><button class="dropdown-item bg-primary text-white" onclick="navigate('./ex-offender_services')">Ex-offender Services</button></li>
+              <li><button class="dropdown-item bg-primary text-white" onclick="navigate('./Disability_Resources')">Disability Resources</button></li>
+            </ul>
+          </li>
+      </div>
+    </div>
+  </nav>
 
   <!-- Content iframe -->
   <iframe id="mainFrame" class="iframe" name="mainFrame" src="about:blank" width="100%" height="70%" allowfullscreen="false" style="background: #000000;bottom:0px" ></iframe>
@@ -264,7 +254,6 @@ function makeAllBackgroundsBlack() {
 makeAllBackgroundsBlack();
 
   </script>
-
 
 
 	</body>
