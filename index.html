@@ -163,8 +163,11 @@ top: 55%;
         <img src="icon.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top bg-primary text-white">
         Akron Health Hub
       </a>
-      <div class="collapse navbar-collapse bg-primary text-white" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-primary text-white">
+      <button class="navbar-toggler bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-primary text-white"></span>
+      </button>
+      <div class="collapse navbar-collapse bg-primary text-white" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll bg-primary text-white">
           <li class="nav-item bg-primary text-white">
             <button class="nav-link active bg-primary text-white" onclick="navigate('https://kent.qualtrics.com/jfe/form/SV_07eJdctqEg38QMC')">Feedback</button>
           </li>
@@ -194,7 +197,7 @@ top: 55%;
   </nav>
 
   <!-- Content iframe -->
-  <iframe id="mainFrame" class="iframe" name="mainFrame" src="about:blank" width="100%" height="70%" allowfullscreen="false" style="background: #000000;bottom:0px" ></iframe>
+  <iframe id="mainFrame" class="iframe-new" name="mainFrame" src="about:blank" width="100%" height="70%" allowfullscreen="false" style="background: #000000;bottom:0px" ></iframe>
 
   
 
