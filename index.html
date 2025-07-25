@@ -158,7 +158,7 @@ top: 55%;
 <body>
   <!-- Navigation bar -->
   <header class="d-flex flex-wrap justify-content-center py-3 mb-4 bg-primary text-white">
-    <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none bg-primary text-white" href="#">
+    <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none bg-primary text-white" onclick="loadAkronHealthHubInfo()" type="button">
       <img src="icon.png" alt="Logo" width="50" height="50" class="bi me-2 bg-primary text-white">
       <span class="fs-4 bg-primary text-white">Akron Health Hub</span>
     </a>
@@ -191,12 +191,17 @@ top: 55%;
   </header>
 
   <!-- Content iframe -->
-  <iframe id="mainFrame" class="iframe-new" name="mainFrame" src="about:blank" width="100%" height="70%" allowfullscreen="false" style="background: #000000;bottom:0px" ></iframe>
+  <iframe id="mainFrame" class="iframe-new" name="mainFrame" src="about:blank" width="100%" height="70%" allowfullscreen="false"></iframe>
 
   
 
   <script>
+    function clearFrame() {
+      document.getElementById('mainFrame').removeAttribute("srcdoc")  
+    }
+
     function navigate(url) {
+      clearFrame()
       document.getElementById('mainFrame').src = url;
     }
 
@@ -248,10 +253,52 @@ function makeAllBackgroundsBlack() {
 }
 
 // Call the function
-makeAllBackgroundsBlack();
 
   </script>
+  <script>
+    /**
+     * Downloads a URL and injects selected parts of the fetched page into the current website.
+     * 
+     * @param {string} url - The URL to fetch.
+     * @param {Object} selectorsMap - A map of CSS selectors and their target containers in the current page.
+     * Example: {
+     *   "#main-content": "#injected-content",
+     *   ".article-header": ".page-header"
+     * }
+     */
+    async function injectWebsiteParts(url, selectorsMap) {
+      try {
+        const response = await fetch(url);
+        if (!response.ok) throw new Error(`Failed to fetch: ${response.statusText}`);
 
+        const text = await response.text();
+
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(text, "text/html");
+
+        for (const [sourceSelector, targetSelector] of Object.entries(selectorsMap)) {
+          const sourceEl = doc.querySelector(sourceSelector);
+          const targetEl = document.querySelector(targetSelector);
+
+          if (sourceEl && targetEl) {
+            targetEl.srcdoc = sourceEl.innerHTML;
+          } else {
+            console.warn(`Couldn't find selector: ${sourceSelector} or ${targetSelector}`);
+          }
+        }
+      } catch (error) {
+        console.error("Injection failed:", error);
+      }
+    }
+
+    function loadAkronHealthHubInfo() {
+      injectWebsiteParts(
+        "https://www.kent.edu/cpph/akron-health-hub",
+        {".block-layout-builder": "#mainFrame"},
+      )
+    }
+    loadAkronHealthHubInfo();
+  </script>
 
 	</body>
 </html>
