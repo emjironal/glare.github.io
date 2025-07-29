@@ -253,51 +253,8 @@ function makeAllBackgroundsBlack() {
 }
 
 // Call the function
-
-  </script>
-  <script>
-    /**
-     * Downloads a URL and injects selected parts of the fetched page into the current website.
-     * 
-     * @param {string} url - The URL to fetch.
-     * @param {Object} selectorsMap - A map of CSS selectors and their target containers in the current page.
-     * Example: {
-     *   "#main-content": "#injected-content",
-     *   ".article-header": ".page-header"
-     * }
-     */
-    async function injectWebsiteParts(url, selectorsMap) {
-      try {
-        const response = await fetch(url);
-        if (!response.ok) throw new Error(`Failed to fetch: ${response.statusText}`);
-
-        const text = await response.text();
-
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(text, "text/html");
-
-        for (const [sourceSelector, targetSelector] of Object.entries(selectorsMap)) {
-          const sourceEl = doc.querySelector(sourceSelector);
-          const targetEl = document.querySelector(targetSelector);
-
-          if (sourceEl && targetEl) {
-            targetEl.srcdoc = sourceEl.innerHTML;
-          } else {
-            console.warn(`Couldn't find selector: ${sourceSelector} or ${targetSelector}`);
-          }
-        }
-      } catch (error) {
-        console.error("Injection failed:", error);
-      }
-    }
-
-    function loadAkronHealthHubInfo() {
-      injectWebsiteParts(
-        "https://www.kent.edu/cpph/akron-health-hub",
-        {".block-layout-builder": "#mainFrame"},
-      )
-    }
-    loadAkronHealthHubInfo();
+  makeAllBackgroundsBlack()
+  navigate("./info_acc.html")
   </script>
 
 	</body>
