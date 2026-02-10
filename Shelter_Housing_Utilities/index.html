@@ -80,9 +80,62 @@
           }
         });
       </script>
-      
-      
-      
+
+    <script>
+    // Inject AAC Logo on the homepage landing page
+    (function() {
+      var maxAttempts = 50;
+      var attempts = 0;
+
+      function injectLogo() {
+        attempts++;
+        var buttonArea = document.getElementById('buttona');
+        var titleArea = document.getElementById('introTxt');
+        
+        // Only inject on the homepage (where buttona exists)
+        if (buttonArea && !document.getElementById('aac-logo-injected')) {
+          var logoContainer = document.createElement('div');
+          logoContainer.id = 'aac-logo-injected';
+          logoContainer.style.cssText = 'display:flex; justify-content:center; align-items:center; margin-top: 15px; z-index: 9999;';
+          
+          var logo = document.createElement('img');
+          logo.src = '../AAC-Logo.png';
+          logo.alt = 'AAC Logo';
+          logo.style.cssText = 'width: 120px; height: auto; max-width: 25vw; border-radius: 50%;';
+          
+          logoContainer.appendChild(logo);
+          
+          // Append logo INSIDE the #introTxt div (title area)
+          // This ensures it appears below the title text but above the fixed button
+          if (titleArea) {
+            titleArea.appendChild(logoContainer);
+          } else {
+            document.body.appendChild(logoContainer);
+          }
+        } else if (attempts < maxAttempts && !document.getElementById('aac-logo-injected')) {
+          setTimeout(injectLogo, 200);
+        }
+      }
+
+      // Wait for React to render, then inject
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function() { setTimeout(injectLogo, 500); });
+      } else {
+        setTimeout(injectLogo, 500);
+      }
+
+      // Also re-inject on navigation changes (SPA)
+      var origPush = history.pushState;
+      history.pushState = function() {
+        origPush.apply(this, arguments);
+        setTimeout(injectLogo, 500);
+      };
+      window.addEventListener('popstate', function() {
+        setTimeout(injectLogo, 500);
+      });
+    })();
+    </script>
+
 </body>
 
 </html>
