@@ -2,104 +2,103 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <script>
+  <meta charset="utf-8" />
+  <script>
     // Fix: Unregister service workers and clear caches to prevent page flicker
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.getRegistrations().then(function(registrations) {
-        registrations.forEach(function(registration) {
+      navigator.serviceWorker.getRegistrations().then(function (registrations) {
+        registrations.forEach(function (registration) {
           registration.unregister();
         });
       });
       if ('caches' in window) {
-        caches.keys().then(function(names) {
-          names.forEach(function(name) { caches.delete(name); });
+        caches.keys().then(function (names) {
+          names.forEach(function (name) { caches.delete(name); });
         });
       }
     }
-    </script>
+  </script>
 
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link rel="icon" href="./favicon.ico" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://unpkg.com/react-leaflet-markercluster/dist/styles.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,700&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap"
-        rel="stylesheet">
-    <meta name="viewport"
-        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0" />
-    <meta name="theme-color" content="#fff" />
-    <link rel="manifest" href="./manifest.json" />
-    <link href="./static/css/2.645d714c.chunk.css" rel="stylesheet">
-    <link href="./static/css/main.0631546d.chunk.css" rel="stylesheet">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="icon" href="./favicon.ico" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://unpkg.com/react-leaflet-markercluster/dist/styles.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0" />
+  <meta name="theme-color" content="#fff" />
+  <link rel="manifest" href="./manifest.json" />
+  <link href="./static/css/2.645d714c.chunk.css" rel="stylesheet">
+  <link href="./static/css/main.0631546d.chunk.css" rel="stylesheet">
 </head>
 
 <body><noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <script>!function (e) { function r(r) { for (var n, l, f = r[0], i = r[1], a = r[2], c = 0, s = []; c < f.length; c++)l = f[c], Object.prototype.hasOwnProperty.call(o, l) && o[l] && s.push(o[l][0]), o[l] = 0; for (n in i) Object.prototype.hasOwnProperty.call(i, n) && (e[n] = i[n]); for (p && p(r); s.length;)s.shift()(); return u.push.apply(u, a || []), t() } function t() { for (var e, r = 0; r < u.length; r++) { for (var t = u[r], n = !0, f = 1; f < t.length; f++) { var i = t[f]; 0 !== o[i] && (n = !1) } n && (u.splice(r--, 1), e = l(l.s = t[0])) } return e } var n = {}, o = { 1: 0 }, u = []; function l(r) { if (n[r]) return n[r].exports; var t = n[r] = { i: r, l: !1, exports: {} }; return e[r].call(t.exports, t, t.exports, l), t.l = !0, t.exports } l.m = e, l.c = n, l.d = function (e, r, t) { l.o(e, r) || Object.defineProperty(e, r, { enumerable: !0, get: t }) }, l.r = function (e) { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, l.t = function (e, r) { if (1 & r && (e = l(e)), 8 & r) return e; if (4 & r && "object" == typeof e && e && e.__esModule) return e; var t = Object.create(null); if (l.r(t), Object.defineProperty(t, "default", { enumerable: !0, value: e }), 2 & r && "string" != typeof e) for (var n in e) l.d(t, n, function (r) { return e[r] }.bind(null, n)); return t }, l.n = function (e) { var r = e && e.__esModule ? function () { return e.default } : function () { return e }; return l.d(r, "a", r), r }, l.o = function (e, r) { return Object.prototype.hasOwnProperty.call(e, r) }, l.p = "./"; var f = this.webpackJsonpGLARE = this.webpackJsonpGLARE || [], i = f.push.bind(f); f.push = r, f = f.slice(); for (var a = 0; a < f.length; a++)r(f[a]); var p = i; t() }([])</script>
-    <script src="./static/js/2.9364dd89.chunk.js"></script>
-    <script src="./static/js/main.d18f711b.chunk.js"></script>
-    <script>
-        // Code made with ChatGPT
-        function onPathChange(callback) {
-          let currentPath = location.pathname;
-      
-          function checkPath() {
-            if (location.pathname !== currentPath) {
-              currentPath = location.pathname;
-              callback(currentPath);
-            }
-          }
-      
-          // Patch pushState and replaceState to detect internal SPA navigation
-          const pushState = history.pushState;
-          const replaceState = history.replaceState;
-      
-          history.pushState = function () {
-            pushState.apply(this, arguments);
-            checkPath();
-          };
-          history.replaceState = function () {
-            replaceState.apply(this, arguments);
-            checkPath();
-          };
-      
-          // Detect back/forward browser actions
-          window.addEventListener("popstate", checkPath);
-      
-          // Also trigger once on initial page load
-          window.addEventListener("load", () => callback(location.pathname));
-        }
-      
-        // Your target function — runs only on /.../main
-        onPathChange((path) => {
-          if (path.endsWith("/main")) {
-            console.log("🟢 /main path loaded — running script...");
-      
-            // Optional delay to ensure React has rendered content
-            setTimeout(() => {
-              // Example: Wrap plain text URLs in #text
-              document.querySelectorAll("#text").forEach(el => {
-                if (!el.dataset.linksWrapped && el.textContent.includes("http")) {
-                  el.innerHTML = el.textContent.replace(
-                    /(?:https?:\/\/[^\s]+)/g,
-                    (url) =>
-                      `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`
-                  );
-                  el.dataset.linksWrapped = "true";
-                }
-              });
-            }, 300); // Adjust delay if needed
-          }
-        });
-      </script>
+  <div id="root"></div>
+  <script>!function (e) { function r(r) { for (var n, l, f = r[0], i = r[1], a = r[2], c = 0, s = []; c < f.length; c++)l = f[c], Object.prototype.hasOwnProperty.call(o, l) && o[l] && s.push(o[l][0]), o[l] = 0; for (n in i) Object.prototype.hasOwnProperty.call(i, n) && (e[n] = i[n]); for (p && p(r); s.length;)s.shift()(); return u.push.apply(u, a || []), t() } function t() { for (var e, r = 0; r < u.length; r++) { for (var t = u[r], n = !0, f = 1; f < t.length; f++) { var i = t[f]; 0 !== o[i] && (n = !1) } n && (u.splice(r--, 1), e = l(l.s = t[0])) } return e } var n = {}, o = { 1: 0 }, u = []; function l(r) { if (n[r]) return n[r].exports; var t = n[r] = { i: r, l: !1, exports: {} }; return e[r].call(t.exports, t, t.exports, l), t.l = !0, t.exports } l.m = e, l.c = n, l.d = function (e, r, t) { l.o(e, r) || Object.defineProperty(e, r, { enumerable: !0, get: t }) }, l.r = function (e) { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, l.t = function (e, r) { if (1 & r && (e = l(e)), 8 & r) return e; if (4 & r && "object" == typeof e && e && e.__esModule) return e; var t = Object.create(null); if (l.r(t), Object.defineProperty(t, "default", { enumerable: !0, value: e }), 2 & r && "string" != typeof e) for (var n in e) l.d(t, n, function (r) { return e[r] }.bind(null, n)); return t }, l.n = function (e) { var r = e && e.__esModule ? function () { return e.default } : function () { return e }; return l.d(r, "a", r), r }, l.o = function (e, r) { return Object.prototype.hasOwnProperty.call(e, r) }, l.p = "./"; var f = this.webpackJsonpGLARE = this.webpackJsonpGLARE || [], i = f.push.bind(f); f.push = r, f = f.slice(); for (var a = 0; a < f.length; a++)r(f[a]); var p = i; t() }([])</script>
+  <script src="./static/js/2.9364dd89.chunk.js"></script>
+  <script src="./static/js/main.d18f711b.chunk.js"></script>
+  <script>
+    // Code made with ChatGPT
+    function onPathChange(callback) {
+      let currentPath = location.pathname;
 
-    <script>
+      function checkPath() {
+        if (location.pathname !== currentPath) {
+          currentPath = location.pathname;
+          callback(currentPath);
+        }
+      }
+
+      // Patch pushState and replaceState to detect internal SPA navigation
+      const pushState = history.pushState;
+      const replaceState = history.replaceState;
+
+      history.pushState = function () {
+        pushState.apply(this, arguments);
+        checkPath();
+      };
+      history.replaceState = function () {
+        replaceState.apply(this, arguments);
+        checkPath();
+      };
+
+      // Detect back/forward browser actions
+      window.addEventListener("popstate", checkPath);
+
+      // Also trigger once on initial page load
+      window.addEventListener("load", () => callback(location.pathname));
+    }
+
+    // Your target function — runs only on /.../main
+    onPathChange((path) => {
+      if (path.endsWith("/main")) {
+        console.log("🟢 /main path loaded — running script...");
+
+        // Optional delay to ensure React has rendered content
+        setTimeout(() => {
+          // Example: Wrap plain text URLs in #text
+          document.querySelectorAll("#text").forEach(el => {
+            if (!el.dataset.linksWrapped && el.textContent.includes("http")) {
+              el.innerHTML = el.textContent.replace(
+                /(?:https?:\/\/[^\s]+)/g,
+                (url) =>
+                  `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`
+              );
+              el.dataset.linksWrapped = "true";
+            }
+          });
+        }, 300); // Adjust delay if needed
+      }
+    });
+  </script>
+
+  <script>
     // Inject AAC Logo on the homepage landing page
-    (function() {
+    (function () {
       var maxAttempts = 50;
       var attempts = 0;
 
@@ -107,20 +106,20 @@
         attempts++;
         var buttonArea = document.getElementById('buttona');
         var titleArea = document.getElementById('introTxt');
-        
+
         // Only inject on the homepage (where buttona exists)
         if (buttonArea && !document.getElementById('aac-logo-injected')) {
           var logoContainer = document.createElement('div');
           logoContainer.id = 'aac-logo-injected';
           logoContainer.style.cssText = 'display:flex; justify-content:center; align-items:center; margin-top: 15px; z-index: 9999;';
-          
+
           var logo = document.createElement('img');
           logo.src = '../AAC-Logo.png';
           logo.alt = 'AAC Logo';
           logo.style.cssText = 'width: 120px; height: auto; max-width: 25vw; border-radius: 50%;';
-          
+
           logoContainer.appendChild(logo);
-          
+
           // Append logo INSIDE the #introTxt div (title area)
           // This ensures it appears below the title text but above the fixed button
           if (titleArea) {
@@ -135,23 +134,85 @@
 
       // Wait for React to render, then inject
       if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', function() { setTimeout(injectLogo, 500); });
+        document.addEventListener('DOMContentLoaded', function () { setTimeout(injectLogo, 500); });
       } else {
         setTimeout(injectLogo, 500);
       }
 
       // Also re-inject on navigation changes (SPA)
       var origPush = history.pushState;
-      history.pushState = function() {
+      history.pushState = function () {
         origPush.apply(this, arguments);
         setTimeout(injectLogo, 500);
       };
-      window.addEventListener('popstate', function() {
+      window.addEventListener('popstate', function () {
         setTimeout(injectLogo, 500);
       });
     })();
-    </script>
+  </script>
 
+  <script>
+    // Inject a dismissible hint banner on the map view (/main)
+    (function () {
+      var hintInjected = false;
+
+      function injectMapHint() {
+        if (hintInjected) return;
+        var mapEl = document.querySelector('.leaflet-container');
+        if (!mapEl) return;
+
+        hintInjected = true;
+
+        var hint = document.createElement('div');
+        hint.id = 'map-drag-hint';
+        hint.innerHTML = '👆 Drag or swipe the map to explore more locations';
+        hint.style.cssText = 'position:absolute; top:12px; left:50%; transform:translateX(-50%); z-index:1000; background:rgba(0,0,0,0.75); color:#fff; padding:10px 20px; border-radius:24px; font-family:Roboto,sans-serif; font-size:14px; text-align:center; pointer-events:auto; cursor:pointer; box-shadow:0 2px 8px rgba(0,0,0,0.3); animation:mapHintFadeIn 0.4s ease; white-space:nowrap; max-width:90vw; overflow:hidden; text-overflow:ellipsis;';
+
+        var style = document.createElement('style');
+        style.textContent = '@keyframes mapHintFadeIn{from{opacity:0;transform:translateX(-50%) translateY(-10px)}to{opacity:1;transform:translateX(-50%) translateY(0)}} @keyframes mapHintFadeOut{from{opacity:1}to{opacity:0}}';
+        document.head.appendChild(style);
+
+        hint.addEventListener('click', function () { dismissHint(hint); });
+        setTimeout(function () { dismissHint(hint); }, 6000);
+
+        mapEl.style.position = 'relative';
+        mapEl.appendChild(hint);
+      }
+
+      function dismissHint(el) {
+        if (!el || !el.parentNode) return;
+        el.style.animation = 'mapHintFadeOut 0.3s ease forwards';
+        setTimeout(function () { if (el.parentNode) el.parentNode.removeChild(el); }, 300);
+      }
+
+      var hintPathObserver = function (path) {
+        if (path.endsWith('/map')) {
+          hintInjected = false;
+          var attempts = 0;
+          var interval = setInterval(function () {
+            attempts++;
+            if (document.querySelector('.leaflet-container') || attempts > 30) {
+              clearInterval(interval);
+              injectMapHint();
+            }
+          }, 200);
+        }
+      };
+
+      var origPush2 = history.pushState;
+      history.pushState = function () {
+        origPush2.apply(this, arguments);
+        setTimeout(function () { hintPathObserver(location.pathname); }, 300);
+      };
+      window.addEventListener('popstate', function () {
+        setTimeout(function () { hintPathObserver(location.pathname); }, 300);
+      });
+      window.addEventListener('load', function () {
+        setTimeout(function () { hintPathObserver(location.pathname); }, 300);
+      });
+    })();
+  </script>
+ 
 </body>
 
 </html>
