@@ -3,6 +3,22 @@
 
 <head>
     <meta charset="utf-8" />
+    <script>
+    // Fix: Unregister service workers and clear caches to prevent page flicker
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        registrations.forEach(function(registration) {
+          registration.unregister();
+        });
+      });
+      if ('caches' in window) {
+        caches.keys().then(function(names) {
+          names.forEach(function(name) { caches.delete(name); });
+        });
+      }
+    }
+    </script>
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="HandheldFriendly" content="True" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
