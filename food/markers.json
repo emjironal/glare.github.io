@@ -4,8 +4,7 @@
   "homepage_image": "mainmenubackground.jpg",
   "ga_tracking_id": "UA-162868232-1",
   "hotspots": [
-
-{
+    {
       "name": "Salvation Army - Summit County Pantries",
       "position": "1",
       "latitude": "41.0860455",
@@ -18,7 +17,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -27,17 +25,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Intake InfoLine: 211   |||   330-376-4850 \n \nRed Shield Food Pantry Phone: 330-762-8481 \n \nWebsite: https://easternusa.salvationarmy.org/northeast-ohio/summit-county/cure-hunger/  \n \nAddress: 1033 Bellows St., Akron, OH 44311 \n \nIntake InfoLine Hours: 24/7 \n \nRed Shield Food Pantry Hours: Second Weds of every month but December, 9:00A-11:00A \n \nEmergency Food Pantry Hours: Mon, Tues, Thurs, and Fri through referral and by appointment (you MUST go through the InfoLine above)",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Open M Neighborhood Center",
       "position": "2",
       "latitude": "41.0612277",
@@ -50,7 +46,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -59,18 +54,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-434-0110, ext. 416 \n \nEmail: food@openm.org \n \nWebsite: https://www.openm.org/   |||   https://www.openm.org/food  \n \nAddress: 941 Princeton St., Akron, OH 443311 \n \nContact Hours: Mon-Fri 8:00A-4:30P \n \nEmergency Food Pantry Hours: Mon-Thurs 11:30A-2:00P   |||   Fri 9:00A-11:00A \n \nMountain of Food Hours: Third Fri of every month, 9:00A-11:00A \n \nSenior Supplemental Food Program: Multiple days within the second week of each month \n \nBlessing Box: Evenings (after 4:30P) every day of the week, as available \n \nGrab & Go Lunch Hours: Last 2 weeks of each month, Mon-Fri 11:30A-1:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Peter Maurin Center of Akron",
       "position": "3",
       "latitude": "41.0570699",
@@ -83,7 +75,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -92,18 +83,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-258-9006  \n \nOnline Message: https://www.petermaurincenter.com/contact   \n \nWebsite: https://www.petermaurincenter.com/   \n \nAddress: 1096 Old S. Main St., Akron, OH 44301  \n \nContact Hours: 24/7 \n \nDrop-In center (with Lunch): Tues, Fri, and Sun 11:00A-2:00P \n \nFood Pantry Hours: Second and fourth Sat of every month, 10:00A-12:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Church of Our Savior Episcopal",
       "position": "4",
       "latitude": "41.0902617",
@@ -116,7 +104,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -125,18 +112,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-535-9174 \n \nWebsite: https://episcopalakron.org/  \n \nAddress: 471 Crosby St., Akron, OH 44302 \n \nDinner on Us Hours: Last two Weds of each month; doors open at 5:45P and dinner begins at 6:15P \n \nThe Friendly Pantry Hours: Last Mon of each month, 8:00A; ask during a Dinner on Us or ask a priest/usher on a Sun morning",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Good Shepherd Baptist Church",
       "position": "5",
       "latitude": "41.0817943",
@@ -149,7 +133,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -158,18 +141,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Website: https://www.facebook.com/GoodShepherdBaptistChurch1010 \n \nAddress: 1010 S. Hawkins Ave., Akron, OH 44320 \n \nFood Pantry Hours: Second and fourth Tues of every month, 12:00P-2:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Community AIDS Network & Pride Institute (CANAPI)",
       "position": "6",
       "latitude": "41.0960843",
@@ -182,7 +162,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -191,18 +170,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-252-1559 \n \nEmail: info@canapi.org \n \nWebsite: https://www.canapi.org/   |||   https://www.canapi.org/food-pantry  \n \nAddress: 759 W. Market St., 1st Floor, Akron, OH 44303 \n \nBusiness Hours: Mon-Fri 9:00A-5:00P \n \nFood Pantry Hours: 10:00A-12:30P on select bimonthly Thurs; see https://www.canapi.org/food-pantry for dates",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Street Outreach Services (SOS) – ShelterCare",
       "position": "7",
       "latitude": "41.1040479",
@@ -215,7 +191,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -224,18 +199,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 234-571-2807 \n \nWebsite: https://sc72.org/  \n \nAddress: 39 W. Cuyahoga Falls Ave., Akron, OH 44310 \n \nBusiness Hours: Mon, Sat 12:00P-4:00P   |||   Tues 12:00P-8:00P   |||   Weds, Thurs 1:00P-8:00P   |||   Fri by appointment only 9:00A-4:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "St. Bernard Parish",
       "position": "8",
       "latitude": "41.0783021",
@@ -248,7 +220,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -257,18 +228,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-253-5161 \n \nWebsite: https://stbernardakron.org/hunger-programs  \n \nAddress: 44 University Ave., Akorn, OH 44308 \n \nFood Pantry Hours: Thurs 9:00A-10:30A \n \nHot Meal Hours: Second, fourth, and fifth Weds and Sun of each month at 5:00P in the Social Hall of the Sr. Bernard church \n \nBag Lunch Hours: Mon-Fri 8:00A-9:00A in the Corbett Center (AKA the Bologna House) adjacent to the church",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Annunciation Greek Orthodox Church",
       "position": "9",
       "latitude": "41.07863",
@@ -281,7 +249,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -290,18 +257,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: (330) 434-0000 \n \nOffice email: office@annunciationakron.org  \n \nWebsite: https://www.annunciationakron.org/outreach  \n \nAddress: 129 S. Union St., Akron, OH 44304 \n \nOffice Hours: Mon-Fri 8:00A-4:00P \n \nFood Pantry Hours: Second Weds of every month, 8:00A   |||   Third Thurs and Fourth Tues of every month, 5:00P-6:30P \n \nHot Meal Hours: Third Thurs and Fourth Tues of every month, 5:00P-6:30P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Sarah’s House",
       "position": "10",
       "latitude": "41.0772131",
@@ -314,7 +278,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -323,18 +286,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-535-7272 \n \nWebsite: https://sarahshouseakron1.org/food-giveaways \n \nAddress: 414 Pine St., Akron, OH 44307 \n \nOffice Hours: Mon-Fri 9:00A-5:00P \n \nFood Pantry Hours: First Sun of each month, 3:00P   |||   Third Sat of each month, 8:00A \n \nTo-Go Hot Meal Hours: Third Sat of each month, 8:00A",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Gennesaret Family Nutrition Center",
       "position": "11",
       "latitude": "41.0839166",
@@ -347,7 +307,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -356,13 +315,13 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-379-1057 \n \nEmail: bobdirgo@hotmail.com  \n \nWebsite: https://gennesaret.bizland.com/  \n \nAddress: 419 W. Exchange St., Akron, OH 44302 \n \nPacked Meal Hours: Tues 10:00A-11:00A, Sat 11:03A-12:30P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        }
-]
+      "media_pages": []
+    }
+  ]
 }

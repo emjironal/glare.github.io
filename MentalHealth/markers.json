@@ -4,8 +4,7 @@
   "homepage_image": "mainmenubackground.jpg",
   "ga_tracking_id": "UA-162868232-1",
   "hotspots": [
-
-{
+    {
       "name": "Urban Minority Alcoholism Drug Abuse & Outreach Program (A-UMADAOP)",
       "position": "1",
       "latitude": "41.0948572",
@@ -18,7 +17,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -27,17 +25,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-379-3467 \n \nWebsite: http://www.akronumadaop.com/ \n \nAddress: 665 W. Market St., Akron, OH 44303 \n \nBusiness Hours (Administrative): Mon-Fri 8:30A-5:30A \n \nClinical Hours: Mon-Thurs 8:30A-9:00P   |||   Fri 8:30A-5:30P   |||   Saturday (by appointment) 10:00A-2:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Community Health Center (CHC) Addiction Services Akron",
       "position": "2",
       "latitude": "41.0759829",
@@ -50,7 +46,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -59,18 +54,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-434-4141 \n \nWebsite: https://chcakron.org/ \n \nAddress: 725 E. Market St., Akron, OH 44305 \n \nBusiness Hours: Mon 5:30A-7:30P   |||   Tues, Thurs, Fri 5:30A-4:00P   |||   Weds 5:30A-7:00P   |||   Sat 5:30A-10:30A",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Interval Brotherhood Home, Inc. Main Campus",
       "position": "3",
       "latitude": "40.9946814",
@@ -83,7 +75,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -92,18 +83,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-644-4095 \n \nWebsite: http://www.ibh.org/ \n \nAddress: 3445 S. Main St., Akron, OH 44319 \n \nBusiness Hours: Mon-Fri 8:00A-4:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Interval Brotherhood Home, Inc. Satellite Campus",
       "position": "4",
       "latitude": "41.0436027",
@@ -116,7 +104,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -125,18 +112,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-644-4095 \n \nWebsite: https://www.ibh.org/ \n \nAddress: 1601 S. Main St., Akron, OH 44301 \n \nOffice Hours: Mon-Fri 8:30A-4:30P \n \nBusiness Hours (Walk-in assessments): Mon, Thurs 12:00P-2:00P   |||   Tues, Weds 9:00A-11:00A",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "The Front Porch- South Street Ministries",
       "position": "5",
       "latitude": "41.0610425",
@@ -149,7 +133,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -158,18 +141,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-761-1992 \n \nWebsite: https://southstreetministries.org/ \n \nAddress: 798 Grant St., Akron, OH 44311 \n \nBusiness Hours: Mon-Sat 7:00A-3:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Urban Ounce of Prevention",
       "position": "6",
       "latitude": "41.0616667",
@@ -182,7 +162,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -191,18 +170,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-867-5400  \n \nWebsite: http://www.uopbhs.org/  \n \nAddress: 1735 S. Hawkins Ave., Akron, OH 44320  \n \nBusiness Hours: Mon-Fri 8:30A-7:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Greenleaf Family Center",
       "position": "7",
       "latitude": "41.0675656",
@@ -215,7 +191,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -224,18 +199,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-376-9494 ext. 209  \n \nVideo Phone: 234-525-6176 \n \nWebsite: http://www.greenleafctr.org/   |||   https://www.greenleafctr.org/alcohol-drug-counseling  \n \nAddress: 580 Grant St., Akron, OH 44311 \n \nBusiness Hours (Behavioral Health Appointments): Mon-Thurs 9:00A-8:00P   |||   Fri by appointment only",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Friday Night Freedom",
       "position": "8",
       "latitude": "41.136906",
@@ -248,7 +220,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -257,18 +228,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "St. John’s Episcopal Church (Host) Phone: 330-928-2139 \n \nEmail: stjohnscfo@sbcglobal.net  \n \nWebsite: https://www.stjohnscf.org/ \n \nSober.com Website Listing: https://sober.com/aa-meeting/friday-night-freedom/  \n \nAddress: St. John's Episcopal Church 2220 Second St., Cuyahoga Falls, OH 44221 \n \nContact Hours: Mon-Fri 9:00A-2:00P \n \nLGBTQ+ Friendly AA Meetings: Fri 7:30P-8:30P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Lambda Study Group",
       "position": "9",
       "latitude": "41.115822",
@@ -281,7 +249,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -290,18 +257,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Fairlawn West United Church of Christ (Host) Phone: 330-864-2179 \n \nEmail: secretary@fairlawnwest.org  \n \nWebsite: https://fairlawnwest.org/  \n \nSober.com Website Listing: https://sober.com/aa-meeting/lambda-study-group-akron/  \n \nAddress: Fairlawn West United Church of Christ 2095 W Market St., Akron, OH 44313 \n \nAA Meeting Hours: Weds 7:30P-8:30P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Bayard Rustin LGBTQ+ Center | Akron AIDS Collaborative",
       "position": "10",
       "latitude": "41.0882752",
@@ -314,27 +278,23 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
-          "description": "The Bayard Rustin Center, home of the Akron AIDS Collaborative (AAC), strengthens advocacy efforts for individuals living with HIV/AIDS and the broader LGBTQ+ community, including those who have experienced stigma tied to their sexual orientation or gender identity. As Ohio's only LGBTQ+ drop-in facility, they offer a wide range of culturally inclusive supports, including testing, medical and housing referrals, a food pantry and clothing closet, community meals, and much more. The AAC team is unwavering in its commitment to fostering a welcoming space where the LGBTQ+ and HIV/AIDS communities can access the support and resources they need to thrive. Services: HIV testing, Mail Order Pharmacy, Banned Book Library, Trans Joy Akron- transgender support.",
+          "description": "The Bayard Rustin Center, home of the Akron AIDS Collaborative (AAC), strengthens advocacy efforts for individuals living with HIV/AIDS and the broader LGBTQ+ community, including those who have experienced stigma tied to their sexual orientation or gender identity. As Ohio’s only LGBTQ+ drop-in facility, they offer a wide range of culturally inclusive supports, including HIV testing, medical and housing referrals, a food pantry and clothing closet, community meals, mail order pharmacy services, a banned book library, and, as partners with TransJoy Akron, transgender support services. The AAC team is unwavering in its commitment to fostering a welcoming space where the LGBTQ+ and HIV/AIDS communities can access the support and resources they need to thrive.",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
-          "description": "Phone: 330-983-4044 \n \nBayard Rustin Center Website: https://www.rustincenter.org/  \n \nAkron AIDS Collaborative Website: https://ohioaac.org/ \n \nAddress: 652 W. Exchange St., Akron, OH 44302 \n \nBusiness Hours: Mon-Fri 10:00A-4:00P",
+          "title": "CONTACT & HOURS",
+          "description": "Phone: 330-983-4044 \n \nBayard Rustin Center Website: https://www.rustincenter.org/  \n \nAkron AIDS Collaborative Website: https://ohioaac.org/ \n \nAddress: 652 W. Exchange St., Akron, OH 44302 \n \nBusiness Hours: Mon-Fri 10:00 AM - 4:00 PM",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Kindred Spirit Behavioral Health",
       "position": "11",
       "latitude": "41.1341394",
@@ -347,7 +307,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -356,18 +315,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 234-466-0445 \n \nWebsite: https://www.kindredspiritbh.org/ \n \nAddress: 3618 W. Market St., Ste. 15, Akron, OH, 44333 \n \nBusiness Hours: Mon-Thurs 8:30A-8:00P   |||   Fri, Sat 8:30A-3:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        }, 
-
-    
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Hope & Healing Survivor Resource Center",
       "position": "13",
       "latitude": "41.0707451",
@@ -380,7 +336,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -389,18 +344,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-374-0740 \n \nEmergency 24/7 Hotline: 330-374-1111 \n \nWebsite: https://hopeandhealingresources.org/ \n \nAddress: 974 E. Market St., Akron, OH 44305 \n \nBusiness Hours: Mon-Fri 9:00A-4:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "University of Akron Clinic for Individual and Family Counseling",
       "position": "14",
       "latitude": "41.0803473",
@@ -413,7 +365,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -422,18 +373,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-972-6822 \n \nWebsite: http://www.uakron.edu/cifc \n \nIntake Webform: https://akron.qualtrics.com/jfe/form/SV_9uCkrOaZFmV4mtn \n \nAddress: 27 S. Forge St., 2nd Floor, Akron, OH 44325 \n \nBusiness Hours: Mon-Thurs 10:00A-9:00P by appointment only",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Cleveland Clinic Justin T. Rogers Hospice Care Center",
       "position": "15",
       "latitude": "41.1084146",
@@ -446,7 +394,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -455,18 +402,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-665-1455 \n \nBereavement Support Groups: 216-444-9819 \n \nWebsite with Support Group Schedule: https://my.clevelandclinic.org/patients/information/bereavement/support-groups \n \nAddress: 3358 Ridgewood Rd., Akron, OH 44333 \n \nBusiness Hours: 24/7",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "PFLAG",
       "position": "16",
       "latitude": "41.0813496",
@@ -479,7 +423,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -488,18 +431,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-412-0289 \n \nEmail: pflagakron@aol.com  \n \nWebsite: https://www.pflagakron.com/  \n \nWeb Contact: https://www.pflagakron.com/contact  \n \nAddress: First Congregational Church of Akron, 292 E. Market St., Akron, OH 44308 \n \nLGBTQ+ Support Group Hours: Third Thurs of each month, 7:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Survivors Sharing Our Unique Life Experiences (SSOULE) HIV Support Group",
       "position": "17",
       "latitude": "41.0813496",
@@ -512,7 +452,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -521,18 +460,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-461-6857 \n \nEmail: robbygeelucas@gmail.com  \n \nWebsite: https://ssoulegroup.wordpress.com/  \n \nAddress: First Congregation Church of Akron 292 E. Market St., Akron, OH 44308 (in the Dining Hall) \n \nSupport Group Hours: Second Weds of each month, 6:00-8:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "OutSupport",
       "position": "18",
       "latitude": "41.138559",
@@ -545,7 +481,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -554,18 +489,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Email: contact@outsupport.org  \n \nWebsite: https://www.outsupport.org/   |||   https://www.facebook.com/OutSupportMedinaOhio/  \n \nWeb Contact: https://www.outsupport.org/reach-out  \n \nAddress: Contact them by their contact page, email, or Facebook group for the meeting location \n \nLGBTQ+ Support Group Hours: Second Thurs of every month, 7:00P-9:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Street Outreach Services (SOS) – ShelterCare",
       "position": "19",
       "latitude": "41.1040479",
@@ -578,7 +510,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -587,18 +518,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 234-571-2807 \n \nWebsite: https://sc72.org/  \n \nAddress: 39 W. Cuyahoga Falls Ave., Akron, OH 44310 \n \nBusiness Hours: Mon, Sat 12:00P-4:00P   |||   Tues 12:00P-8:00P   |||   Weds, Thurs 1:00P-8:00P   |||   Fri by appointment only 9:00A-4:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "The Front Porch – South Street Ministries",
       "position": "20",
       "latitude": "41.0610425",
@@ -611,7 +539,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -620,18 +547,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-761-1992 \n \nWebsite: https://southstreetministries.org/ \n \nAddress: 798 Grant St., Akron, OH 44311 \n \nBusiness Hours: Mon-Sat 7:00A-3:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Ohio Guidestone – Summit County Fathers’ Feelings Project",
       "position": "21",
       "latitude": "41.128724",
@@ -644,7 +568,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -653,14 +576,13 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 216-372-6130 \n \nWebsite: https://institute.ohioguidestone.org/research/research-studies/   |||   https://institute.ohioguidestone.org/innovations/fathers-feelings/  \n \nAddress: 3094 W. Market St., Suite 105, Fairlawn, OH 44333 \n \nBusiness Hours: Mon-Fri 9:00A-5:00P, evenings by appointment",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        }
-]
-
+      "media_pages": []
+    }
+  ]
 }
