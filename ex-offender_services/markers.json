@@ -4,8 +4,7 @@
   "homepage_image": "mainmenubackground.jpg",
   "ga_tracking_id": "UA-162868232-1",
   "hotspots": [
-
-{
+    {
       "name": "Restoration House – South Street Ministries",
       "position": "1",
       "latitude": "41.0609935",
@@ -18,7 +17,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -27,17 +25,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-761-1992 \n \nWebsite: https://southstreetministries.org/restoration-house/ \n \nAddress: 801 Grant St., Akron, OH 44311 \n \nBusiness Hours: Mon-Fri 9:00A-5:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-{
+      "media_pages": []
+    },
+    {
       "name": "The Front Porch – South Street Ministries",
       "position": "2",
       "latitude": "41.0610425",
@@ -50,7 +46,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -59,18 +54,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-375-1991 \n \nWebsite: https://southstreetministries.org/the-front-porch/ \n \nAddress: 798 Grant St., Akron, OH  44311 \n \nBusiness Hours (may vary): Mon-Fri 9:00A-3:00P \n \nPorchlight Coffeehouse Hours: Mon-Weds 7:00A-3:00P   |||   Thurs-Fri 7:00A-6:00P \n \nMen's Re-Entry Support Group: Tues 4:00P-5:30P \n \nWomen’s Re-entry Support Group: Tues 7:00P-8:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Special Housing Adjustment Residential Program (SHARP)",
       "position": "3",
       "latitude": "41.0958436",
@@ -83,7 +75,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -92,18 +83,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone (Oriana House):  330-535-8116 \n \nPhone (SHARP): 330-996-2222 \n \nWebsite: https://www.orianahouse.org/  \n \nAddress: 55 E. Glenwood Ave., Akron, OH 44304 \n \nBusiness Hours: Mon-Fri 8:00A-4:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Akron Urban League",
       "position": "4",
       "latitude": "41.0725709",
@@ -116,7 +104,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -125,18 +112,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-434-3101 \n \nWebsite: https://www.akronurbanleague.org/ \n \nAddress: 440 Vernon Odom Blvd., Akron, OH 44307 \n \nBusiness Hours: Mon-Fri 8:00A-4:30P \n \nWalk-in Closet: Tues 9:00A-11:00A   |||   Thurs 2:00P-4:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Ohio Means Jobs – Summit County",
       "position": "5",
       "latitude": "41.0998722",
@@ -149,7 +133,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -158,13 +141,13 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-633-1050 \n \nWebsite: https://ohiomeansjobs.ohio.gov/   |||    https://ohiomeansjobs.ohio.gov/job-seekers/find-a-job/local-help/summit-county  \n \nAddress: 1040 E. Tallmadge Ave., Akron, OH 44310 \n \nBusiness Hours: Mon-Fri 8:00A-4:00P by appointment only",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        }
-]
+      "media_pages": []
+    }
+  ]
 }

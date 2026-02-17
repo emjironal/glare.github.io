@@ -4,8 +4,7 @@
   "homepage_image": "mainmenubackground.jpg",
   "ga_tracking_id": "UA-162868232-1",
   "hotspots": [
-
-{
+    {
       "name": "United Disability Services – Akron",
       "position": "1",
       "latitude": "41.0833389",
@@ -18,7 +17,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -27,13 +25,13 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-762-9755 \n\nWebsite: https://www.udsakron.org/ \n\nAddress: 701 S. Main St., Akron, OH 44311 \n\nBusiness Hours: Mon-Fri 8:00A-4:30P \n\nToy Resource Center Hours: Tues & Weds 2:00P-5:00P; Thurs 11:00A-2:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        }
-]
+      "media_pages": []
+    }
+  ]
 }

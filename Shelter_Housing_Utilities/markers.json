@@ -4,8 +4,7 @@
   "homepage_image": "mainmenubackground.jpg",
   "ga_tracking_id": "UA-162868232-1",
   "hotspots": [
-
-{
+    {
       "name": "Community AIDS Network & Pride Institute (CANAPI) (Shelter & Housing, Utilities)",
       "position": "1",
       "latitude": "41.0960843",
@@ -18,7 +17,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -27,17 +25,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-252-1559 \n \nPhone Intake for Harmony Place, Helping Hands, Micah Project, and Shelter + Care: 211 \n \nEmail: info@canapi.org \n \nWebsite: https://www.canapi.org/   |||   https://www.canapi.org/housingandassistance  \n \nAddress: 759 W. Market St., 1st Floor, Akron, OH 44303 \n \nBusiness Hours: Mon-Fri 9:00A-5:00P ||| Late Night Testing Tues 5:00P-7:00P \n211 Hours: 24/7",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Street Outreach Services (SOS) – ShelterCare",
       "position": "2",
       "latitude": "41.1040479",
@@ -50,7 +46,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -59,18 +54,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 234-571-2807 \n \nWebsite: https://sc72.org/  \n \nAddress: 39 W. Cuyahoga Falls Ave., Akron, OH 44310 \n \nBusiness Hours: Mon, Sat 12:00P-4:00P   |||   Tues 12:00P-8:00P   |||   Weds, Thurs 1:00P-8:00P   |||   Fri by appointment only 9:00A-4:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Hope & Healing Survivor Resource Center Emergency Shelter",
       "position": "3",
       "latitude": "41.0707451",
@@ -83,7 +75,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -92,18 +83,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "24/7 Emergency Hotline: 330-374-1111  \n \nBusiness Phone (Summit County): 330-374-0740 \n \nBusiness Phone (Medina County): 330-374-0740 \n \nWebsite: https://hopeandhealingresources.org/ \n \nSummit Address: 974 E. Market St., Akron, OH 44305 \n \nSummit Business Hours: Mon-Fri 8:00A-4:00P \n \nMedina Address: 225 E Liberty, Medina, OH 44256 \n \nMedina Business Hours: By appointment only",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Access Shelter",
       "position": "4",
       "latitude": "41.08864",
@@ -116,7 +104,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -125,18 +112,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-376-0997 \n \nHomeless Hotline: 330-615-0577 \n \nWebsite: http://www.access-shelter.org/ \n \nAddress: 230 W. Market St., Akron, OH 44303 \n \nBusiness Hours: Mon-Fri 8:00A-5:00P \n \nHomeless Hotline Hours: Mon-Fri 8:00A-5:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Legacy III Supportive Housing for Women",
       "position": "5",
       "latitude": "41.0959086",
@@ -149,7 +133,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -158,18 +141,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-375-0071 \n \nHomeless Hotline: 330-615-0577 \n \nWebsite: https://legacyiii.org/ \n \nOnline contact: https://legacyiii.org/contact-us/  \n \nAddress: 87 S. Arlington St., Akron, OH 44306 \n \nBusiness Hours: Mon-Fri 8:00A-4:00P \n \nHomeless Hotline Hours: Mon-Fri 8:00am-4:00pm",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Peter Maurin Center of Akron",
       "position": "6",
       "latitude": "41.0570699",
@@ -182,7 +162,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -191,18 +170,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-258-9006 \n \nWebsite: https://www.petermaurincenter.com/ \n \nAddress: 1096 S. Main St., Akron, OH 44301 \n \nBusiness Hours: Mon-Fri 8:00A-5:00P \n \nEmergency Shelter Hours: 7:00P-8:00A any night where the temperature is below 15° F \n \nHygeine Distribution Hours: Second and fourth Tues of every month, 11:00A-12:30P \n \nClothing Distribution: Tues, Fri, and Sun 11:00A-12:30P \n \nDrop-in Center (with Soup Kitchen): Tues, Fri, Sun 11:00A-2:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Summit County Continuum of Care",
       "position": "7",
       "latitude": "41.0843467",
@@ -215,7 +191,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -224,18 +199,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Centralized Housing Intake: 211 \n \nPhone: 234-312-0833 \n \nWebsite: http://www.summitcoc.org/ \n \nHelp Page: https://summitcoc.org/get-help/  \n \nAddress: 23 S. Main St., Akron, OH 44308 \n \nBusiness Hours: Mon-Fri 8:00A-4:30P \n \nCentralized Intake Hours: 24/7",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "United Disability Services – Akron",
       "position": "8",
       "latitude": "41.0833389",
@@ -248,7 +220,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -257,18 +228,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-762-9755 \n \nWebsite: https://www.udsakron.org/ \n \nAddress: 701 S. Main St., Akron, OH 44311 \n \nBusiness Hours: Mon-Fri 8:00A-4:30P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Akron Summit Community Action",
       "position": "9",
       "latitude": "41.0879783",
@@ -281,7 +249,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -290,18 +257,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-436-0261 \n \nWebsite: https://www.ca-akron.org/energy-assistance/about \n \nOnline Appointment Scheduling: https://app.capappointments.com/ \n \nAddress: 670 W. Exchange St., Akron, OH 44302 \n \nBusiness Hours: Mon-Fri 8:00A-5:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "The Salvation Army – Summit County",
       "position": "10",
       "latitude": "41.085971",
@@ -314,7 +278,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -323,13 +286,13 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-762-8481 \n \nWebsite: https://easternusa.salvationarmy.org/northeast-ohio/summit-county/ \n \nAddress: 190 S. Maple St., Akron, OH 44302 \n \nSite Hours: Mon-Fri 9:00A-3:00P \n \nAdministrative Phone Hours: Mon-Fri 9:00A-4:30P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        }
-]
+      "media_pages": []
+    }
+  ]
 }

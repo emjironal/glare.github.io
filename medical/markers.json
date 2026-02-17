@@ -4,8 +4,7 @@
   "homepage_image": "mainmenubackground.jpg",
   "ga_tracking_id": "UA-162868232-1",
   "hotspots": [
-
-{
+    {
       "name": "Equitas Health – Akron Health Center",
       "position": "1",
       "latitude": "41.0873718",
@@ -18,7 +17,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -27,17 +25,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-409-9505 \n \nWebsite: https://equitashealth.com/locations/akron-health-center/  \n \nOnline Scheduling: https://equitashealth.formstack.com/forms/requestanappointment  \n \nAddress: 636 W. Exchange St., Akron, OH 44302 \n \nBusiness Hours (Medical Care): Mon, Tues, Thurs, Fri: 8:00A-5:00P   |||   Weds: 9:00A-6:00P \n \nBusiness Hours (Pharmacy): Mon, Tues, Thurs, Fri: 9:00A-5:00P   |||   Weds: 10:00A-6:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Planned Parenthood – Akron Health Center",
       "position": "2",
       "latitude": "41.0836153",
@@ -50,7 +46,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -59,18 +54,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-535-2671  \n \nFax: 330-537-8141  \n \nWebsite: https://www.plannedparenthood.org/health-center/ohio/akron/44302/akron-health-center-3344-91230   \n \nAddress: 444 W. Exchange St., Akron, OH 44302 \n \nBusiness Hours: Mon: 10:00A-4:00P   |||   Tues, Thurs: 9:00A-6:00P   |||   Weds: 9:00A-4:00P   |||   Fri: 9:00A-3:00P   |||   Sat: 9:00A-2:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Peter Maurin Center of Akron",
       "position": "3",
       "latitude": "41.0570699",
@@ -83,7 +75,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -92,18 +83,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-258-9006  \n \nOnline Message: https://www.petermaurincenter.com/contact   \n \nWebsite: https://www.petermaurincenter.com/   \n \nAddress: 1096 Old S. Main St., Akron, OH 44301  \n \nContact Hours: 24/7 \n \nMedical Service Hours: Second and fourth Tuesday of every month, 11:00A-2:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Cleveland Clinic – Akron General",
       "position": "4",
       "latitude": "41.0785562",
@@ -116,7 +104,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -125,18 +112,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-344-6000  \n \nWebsite: https://my.clevelandclinic.org/locations/akron-general   \n \nAddress: 1 Akron General Ave., Akron, OH 44307  \n \nBusiness Hours (Facility): 24/7  \n \nBusiness Hours (Emergency): 24/7  \n \nBusiness Hours (Specialty Appointments): Varies. See more information by selecting the appropriate specialty at https://my.clevelandclinic.org/locations/akron-general/specialties  \n \nBusiness Hours (Pharmacy):  Mon-Fri: 8:00A-7:00P   |||   Sat: 9:00A-1:00P \n \nBusiness Hours (Laboratory, Appointment Recommended): Mon-Fri: 7:00A-4:00P \n \nBusiness Hours (Imaging): Mon-Fri: 7:00A-6:00P \n \nBusiness Hours (Mammography, Appointment Needed): Mon-Fri: 7:30A-4:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Community AIDS Network & Pride Institute (CANAPI)",
       "position": "5",
       "latitude": "41.0960843",
@@ -149,7 +133,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -158,18 +141,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-252-1559 \n \nWebsite: https://www.canapi.org/ \n \nEmail: info@canapi.org \n \nAddress: 759 W. Market St., 1st Floor, Akron, OH 44303 \n \nBusiness Hours: Mon-Fri 9:00A-5:00P ||| Late Night Walk-in Testing Tues 5:00P-7:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Open M Neighborhood Center",
       "position": "6",
       "latitude": "41.0612277",
@@ -182,7 +162,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -191,13 +170,13 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-434-0110, ext. 413 \n \nEmail: health@openm.org \n \nWebsite: https://www.openm.org/   |||   https://www.openm.org/health  \n \nAddress: 941 Princeton St., Akron, OH 443311 \n \nContact Hours: Mon-Fri 8:00A-4:30P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        }
-]
+      "media_pages": []
+    }
+  ]
 }

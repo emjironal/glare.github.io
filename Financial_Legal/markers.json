@@ -4,8 +4,7 @@
   "homepage_image": "mainmenubackground.jpg",
   "ga_tracking_id": "UA-162868232-1",
   "hotspots": [
-
-{
+    {
       "name": "Akron Urban League",
       "position": "1",
       "latitude": "41.0725709",
@@ -18,7 +17,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -27,17 +25,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-434-3101 \n \nWebsite: https://www.akronurbanleague.org/ \n \nAddress: 440 Vernon Odom Blvd., Akron, OH 44307 \n \nBusiness Hours: Mon-Fri 8:00A-4:30P \n \nWalk-in Closet: Tues 9:00A-11:00A   |||   Thurs 2:00P-4:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Ohio Means Jobs – Summit County",
       "position": "2",
       "latitude": "41.0998722",
@@ -50,7 +46,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -59,18 +54,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-633-1050 \n \nWebsite: https://ohiomeansjobs.ohio.gov/   |||    https://ohiomeansjobs.ohio.gov/job-seekers/find-a-job/local-help/summit-county \n \nAddress: 1040 E. Tallmadge Ave., Akron, OH 44310 \n \nBusiness Hours: Mon-Fri 8:00A-4:00P by appointment only",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Street Outreach Services (SOS) – ShelterCare",
       "position": "3",
       "latitude": "41.1040479",
@@ -83,7 +75,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -92,18 +83,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 234-571-2807 \n \nWebsite: https://sc72.org/  \n \nAddress: 39 W. Cuyahoga Falls Ave., Akron, OH 44310 \n \nBusiness Hours: Mon, Sat 12:00P-4:00P   |||   Tues 12:00P-8:00P   |||   Weds, Thurs 1:00P-8:00P   |||   Fri by appointment only 9:00A-4:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "University of Akron Clinic for Individual and Family Counseling",
       "position": "4",
       "latitude": "41.0803473",
@@ -116,7 +104,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -125,18 +112,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-972-6822 \n \nWebsite: http://www.uakron.edu/cifc \n \nIntake Webform: https://akron.qualtrics.com/jfe/form/SV_9uCkrOaZFmV4mtn \n \nAddress: 27 S. Forge St., 2nd Floor, Akron, OH 44325 \n \nBusiness Hours: Mon-Thurs 10:00A-9:00P by appointment only",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "United Disability Services – Akron",
       "position": "5",
       "latitude": "41.0833389",
@@ -149,7 +133,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -158,18 +141,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-762-9755 \n \nWebsite: https://www.udsakron.org/ \n \nAddress: 701 S. Main St., Akron, OH 44311 \n \nBusiness Hours: Mon-Fri 8:00A-4:30P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Open M Neighborhood Center",
       "position": "6",
       "latitude": "41.0612277",
@@ -182,7 +162,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -191,18 +170,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-434-0110, ext. 423 \n \nWebsite: https://www.openm.org/   |||   https://www.openm.org/employment \n \nAddress: 941 Princeton St., Akron, OH 443311 \n \nContact Hours: Mon-Fri 8:00A-4:30P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Akron Financial Empowerment Center",
       "position": "7",
       "latitude": "41.0419783",
@@ -215,7 +191,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -224,18 +199,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-685-9430 \n \nWebsite: https://www.uwsummitmedina.org/services/financial-empowerment-center/ \n \nOnline Appointment Scheduling: https://app.acuityscheduling.com/schedule/f54f6fa3/?categories%5B%5D=%20FEC%20Financial%20Counseling \n \nSummit County Address: 37 N. High St., Akron, OH 44308 \n \nBusiness Hours: Mon-Thurs 8:00A-5:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Pride Through Empowerment Foundation",
       "position": "8",
       "latitude": "41.0767092",
@@ -248,7 +220,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -257,18 +228,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-777-3331 \n \nEmail: Creditbuilder.ptef@yahoo.com \n \nWebsite: http://www.pridethroughempowerment.org/ \n \nWeb Contact: https://pridethroughempowerment.org/contact/  \n \nAddress: 333 S. Main St., Ste. 510, Akron, OH 44308 \n \nBusiness Hours: Mon-Fri 10:00A-6:00P by appointment only",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Plexus LGBT & Allied Chamber of Commerce",
       "position": "9",
       "latitude": "41.4840743",
@@ -281,7 +249,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -290,18 +257,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 216-243-7510 \n \nEmail: info@thinkplexus.org \n \nWebsite: https://www.thinkplexus.org/ \n \nWeb Contact: https://business.thinkplexus.org/info/  \n \nAddress: 6516 Detroit Ave., Suite 9, Cleveland, OH 44102 \n \nBusiness Hours: Mon, Tues, Thurs 10:00A-4:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Community Legal Aid Services, Inc.",
       "position": "10",
       "latitude": "41.08386",
@@ -314,7 +278,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -323,18 +286,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 866-584-2350  \n \nLegal HelpLine: 800-998-8454 \n \nWebsite: https://www.communitylegalaid.org/ \n \nOnline Assistance Portal: https://www.communitylegalaid.org/apply  \n \nAddress: 50 South Main St., Suite 800, Akron, OH 44308 \n \nBusiness Hours: Mon-Fri 8:30A-4:30P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Ohio Civil Rights Commission Akron Regional Office",
       "position": "11",
       "latitude": "41.0803948",
@@ -347,7 +307,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -356,18 +315,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-643-3100 \n \nWebsite: https://civ.ohio.gov/about/regional-offices/Akron-regional-office \n \nFile a Charge Online: https://civ.ohio.gov/how-to-file-a-charge/filing-a-charge/online \n \nAddress: 172 S. Broadway St., Suite 400, Akron, OH 44308 \n \nBusiness Hours: Mon-Fri 8:00A-5:00P by appointment only",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "National Alliance for the Advancement of Colored People (NAACP) Akron Chapter",
       "position": "12",
       "latitude": "41.0819555",
@@ -380,7 +336,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -389,13 +344,13 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-573-4986 \n \nEmail: akronnaacp@yahoo.com \n \nWebsite: https://www.naacpakron.org/ \n \nAddress: 230 W. Center St., Akron, OH 44302 \n \nBusiness Hours: Mon, Wed, Fri 10:00A-2:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        }
-]
+      "media_pages": []
+    }
+  ]
 }

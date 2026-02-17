@@ -4,8 +4,7 @@
   "homepage_image": "mainmenubackground.jpg",
   "ga_tracking_id": "UA-162868232-1",
   "hotspots": [
-
-{
+    {
       "name": "Metro RTA",
       "position": "1",
       "latitude": "41.0493675",
@@ -18,7 +17,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -27,17 +25,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-762-0341 \n \nWebsite: https://www.yourmetrobus.org/ \n \nAddress: 416 Kenmore Blvd., Akron, OH 44301 \n \nBusiness Hours: Mon-Fri 8:00A-4:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Metro SCAT",
       "position": "2",
       "latitude": "41.0493675",
@@ -50,7 +46,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -59,18 +54,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-376-5353   |||   Toll-free 800-227-9905 \n \nScheduling Line: 330-376-8458 \n \nWebsite: https://www.yourmetrobus.org/metro-drives.aspx \n \nAddress: 416 Kenmore Blvd., Akron, OH 44301 \n \nScheduling Line Hours: Mon-Fri 7:00A-5:00P \n \nService Hours: Varies by location; call to confirm",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Peter Maurin Center of Akron",
       "position": "3",
       "latitude": "41.0570699",
@@ -83,7 +75,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -92,18 +83,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-258-9006  \n \nOnline Message: https://www.petermaurincenter.com/contact   \n \nWebsite: https://www.petermaurincenter.com/   \n \nAddress: 1096 Old S. Main St., Akron, OH 44301  \n \nContact Hours: 24/7 \n \nDrop-in Center: Tues, Fri, Sun 11:00A-2:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "Street Outreach Services (S.O.S.) – ShelterCare",
       "position": "4",
       "latitude": "41.1040479",
@@ -116,7 +104,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -125,18 +112,15 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 234-571-2807 \n \nWebsite: https://sc72.org/  \n \nAddress: 39 W. Cuyahoga Falls Ave., Akron, OH 44310 \n \nBusiness Hours: Mon, Sat 12:00P-4:00P   |||   Tues 12:00P-8:00P   |||   Weds, Thurs 1:00P-8:00P   |||   Fri by appointment only 9:00A-4:00P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        },
-   
-
-
-{
+      "media_pages": []
+    },
+    {
       "name": "United Disability Services – Akron",
       "position": "5",
       "latitude": "41.0833389",
@@ -149,7 +133,6 @@
       "overlay_offset_x": 0,
       "overlay_offset_y": 0,
       "start_audio": "",
-    
       "main_pages": [
         {
           "title": "SERVICES",
@@ -158,13 +141,13 @@
           "descriptive_audio": ""
         },
         {
-          "title": "CONTACT",
+          "title": "CONTACT & HOURS",
           "description": "Phone: 330-762-9755 \n \nWebsite: https://www.udsakron.org/ \n \nAddress: 701 S. Main St., Akron, OH 44311 \n \nBusiness Hours: Mon-Fri 8:00A-4:30P",
           "background_image": "AHHgenericbg.jpg",
           "descriptive_audio": ""
         }
       ],
-     "media_pages": []
-        }
-]
+      "media_pages": []
+    }
+  ]
 }
