@@ -1,0 +1,544 @@
+/* ============================================================
+   MENU OVERRIDE — Akron Health Hub
+   Side drawer menu, simple, matches app design
+   ============================================================ */
+
+/* ============================================================
+   OVERLAY — Semi-transparent dark backdrop
+   ============================================================ */
+.Overlay {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  z-index: 99999 !important;
+}
+
+/* ============================================================
+   MODAL — Side drawer from left
+   ============================================================ */
+.Modal {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  width: 300px !important;
+  max-width: 85vw !important;
+  height: 100% !important;
+  background: #111 !important;
+  color: #fff !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 0 !important;
+  overflow-y: auto !important;
+  box-shadow: 4px 0 20px rgba(0, 0, 0, 0.5) !important;
+  animation: slideInLeft 0.25s ease-out forwards;
+}
+
+@keyframes slideInLeft {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(0); }
+}
+
+/* ============================================================
+   MENU CONTENT
+   ============================================================ */
+.menu-content {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+}
+
+/* ============================================================
+   MENU TITLE
+   ============================================================ */
+.menu-title {
+  font-family: 'Raleway', sans-serif !important;
+  font-size: 1.4em !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  color: #fff !important;
+  text-align: left !important;
+  margin: 0 !important;
+  padding: 1.2em 1.2em 0.8em !important;
+  border-bottom: 2px solid #333 !important;
+}
+
+/* ============================================================
+   MENU CONTAINER — Vertical stack
+   ============================================================ */
+.menu-ctn {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 !important;
+  gap: 0 !important;
+}
+
+/* ============================================================
+   NAVIGATION MENU
+   ============================================================ */
+.menu-content .navigation-menu {
+  width: 100% !important;
+  float: none !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0 !important;
+  margin: 0 !important;
+}
+
+.menu-content .navigation-menu a[class^="menu-item"] {
+  border-right-width: 0 !important;
+}
+
+.menu-content .navigation-menu .menu-item {
+  border-bottom-width: 0 !important;
+}
+
+/* ============================================================
+   ALL MENU LINKS
+   ============================================================ */
+a[class^="menu-item"] {
+  display: flex !important;
+  align-items: center !important;
+  padding: 1em 1.4em !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 1em !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  color: #fff !important;
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #222 !important;
+  border-radius: 0 !important;
+  transition: background 0.2s ease !important;
+  gap: 0.7em !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+}
+
+a[class^="menu-item"]:hover,
+a[class^="menu-item"]:active {
+  background: #1a1a1a !important;
+  color: #8bd2cf !important;
+  text-decoration: none !important;
+}
+
+a[class^="menu-item"]:focus {
+  outline: 2px solid #8bd2cf !important;
+  outline-offset: -2px !important;
+}
+
+/* ============================================================
+   MEDIA MENU
+   ============================================================ */
+.menu-content .media-menu {
+  width: 100% !important;
+  float: none !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0 !important;
+  margin: 0 !important;
+}
+
+.media-menu .menu-item {
+  align-self: stretch !important;
+  flex: none !important;
+}
+
+.media-menu .menu-item-last {
+  border-top-width: 0 !important;
+}
+
+.menu-content .media-menu.library-empty {
+  justify-content: flex-start !important;
+}
+
+.menu-content .media-menu.library-empty a[class^="menu-item"] {
+  border: none !important;
+  border-bottom: 1px solid #222 !important;
+}
+
+/* ============================================================
+   CLOSE BUTTON — Top-right of drawer
+   ============================================================ */
+.Modal .closeBtn,
+.Overlay .closeBtn {
+  position: absolute !important;
+  top: 1em !important;
+  right: 0.8em !important;
+  font-size: 1.6rem !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+  cursor: pointer !important;
+  transition: color 0.2s ease !important;
+  z-index: 100000 !important;
+  width: 40px !important;
+  height: 40px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+
+.Modal .closeBtn:hover,
+.Overlay .closeBtn:hover {
+  color: #fff !important;
+}
+
+/* ============================================================
+   HAMBURGER ICON — Style the existing FontAwesome icon
+   ============================================================ */
+#overlay-content > div[style*="left"][style*="top"] {
+  width: 40px !important;
+  height: 40px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: rgba(0, 0, 0, 0.55) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+  transition: background 0.2s ease !important;
+}
+
+#overlay-content > div[style*="left"][style*="top"]:hover {
+  background: rgba(0, 0, 0, 0.75) !important;
+}
+
+#overlay-content > div[style*="left"][style*="top"] > .overlay-icon {
+  font-size: 1.4rem !important;
+  color: #fff !important;
+}
+
+/* ============================================================
+   ORGANIZATION SUBTITLE (injected via JS)
+   ============================================================ */
+.ahh-menu-org-name {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-size: 1.05em;
+  font-weight: 600;
+  color: #8bd2cf;
+  text-align: left;
+  margin: 0;
+  padding: 0.3em 1.8em 1.1em;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  line-height: 1.35;
+}
+
+/* ============================================================
+   DIVIDER between nav-menu and media-menu
+   ============================================================ */
+.ahh-menu-divider {
+  width: 100%;
+  height: 1px;
+  background: #333;
+  margin: 0;
+}
+
+/* ============================================================
+   TOUR PAGE — OVERLAY ICONS (eye, map, back)
+   Restyle from 5rem to compact, clean icons
+   ============================================================ */
+
+/* All bottom icon containers */
+div[class^="overlay-ctn-"] {
+  width: auto !important;
+  bottom: 0.8em !important;
+}
+
+.overlay-ctn-show {
+  left: 0.8em !important;
+}
+
+.overlay-ctn-map {
+  right: 0.8em !important;
+}
+
+/* All overlay icons — reduce size */
+.overlay-icon {
+  font-size: 2.2rem !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.overlay-icon path {
+  stroke: rgba(0, 0, 0, 0.6) !important;
+  stroke-width: 15 !important;
+}
+
+.overlay-icon:hover {
+  color: #8bd2cf !important;
+}
+
+/* Bottom icon containers — styled backgrounds */
+.overlay-ctn-show,
+.overlay-ctn-map {
+  background: rgba(0, 0, 0, 0.55) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  border-radius: 10px !important;
+  width: auto !important;
+  height: 44px !important;
+  padding: 0 14px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 7px !important;
+  transition: background 0.2s ease, transform 0.15s ease !important;
+  cursor: pointer !important;
+}
+
+.overlay-ctn-show:hover,
+.overlay-ctn-map:hover {
+  background: rgba(0, 0, 0, 0.78) !important;
+  transform: translateY(-1px) !important;
+}
+
+.overlay-ctn-show .overlay-icon,
+.overlay-ctn-map .overlay-icon {
+  font-size: 1.4rem !important;
+}
+
+/* Text label inside overlay buttons */
+.ahh-btn-label {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.92);
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+  line-height: 1;
+}
+
+.overlay-ctn-show:hover .ahh-btn-label,
+.overlay-ctn-map:hover .ahh-btn-label {
+  color: #8bd2cf;
+}
+
+/* Hotspot title bar — reduce size */
+.hotspotControls {
+  width: calc(100% - 6em) !important;
+  margin: 0.6em 3em 0 !important;
+}
+
+#title-ctn {
+  font-size: 3vw !important;
+}
+
+/* Back button */
+#overlaybuttonback {
+  width: auto !important;
+}
+
+#overlaybuttonback .overlay-icon {
+  font-size: 1.8rem !important;
+}
+
+/* Audio player footer — compact */
+#fixed-footer {
+  bottom: 0 !important;
+}
+
+#fixed-footer audio {
+  height: 36px !important;
+  max-width: 280px !important;
+}
+
+/* ============================================================
+   360° BADGE (injected via JS)
+   ============================================================ */
+.ahh-360-badge {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 8;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(0, 0, 0, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+  padding: 8px 16px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  pointer-events: none;
+  animation: badge360FadeIn 0.5s ease forwards, badge360FadeOut 0.5s ease 4s forwards;
+  white-space: nowrap;
+}
+
+.ahh-360-badge svg {
+  width: 20px;
+  height: 20px;
+  fill: #8bd2cf;
+  flex-shrink: 0;
+}
+
+@keyframes badge360FadeIn {
+  from { opacity: 0; transform: translate(-50%, -50%) scale(0.9); }
+  to   { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+@keyframes badge360FadeOut {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+
+/* ============================================================
+   MOBILE RESPONSIVE
+   ============================================================ */
+@media screen and (max-width: 600px) {
+  /* Menu */
+  .Modal {
+    width: 270px !important;
+  }
+
+  a[class^="menu-item"] {
+    padding: 0.9em 1.2em !important;
+    font-size: 0.9em !important;
+    min-height: 44px !important;
+  }
+
+  .menu-title {
+    font-size: 1.2em !important;
+  }
+
+  /* Tour icons */
+  .overlay-icon {
+    font-size: 1.8rem !important;
+  }
+
+  .overlay-ctn-show,
+  .overlay-ctn-map {
+    height: 38px !important;
+    padding: 0 10px !important;
+    bottom: 0.5em !important;
+    border-radius: 8px !important;
+  }
+
+  .overlay-ctn-show .overlay-icon,
+  .overlay-ctn-map .overlay-icon {
+    font-size: 1.2rem !important;
+  }
+
+  .ahh-btn-label {
+    font-size: 0.7rem;
+  }
+
+  .overlay-ctn-show {
+    left: 0.5em !important;
+  }
+
+  .overlay-ctn-map {
+    right: 0.5em !important;
+  }
+
+  /* Hamburger */
+  #overlay-content > div[style*="left"][style*="top"] {
+    width: 36px !important;
+    height: 36px !important;
+  }
+
+  #overlay-content > div[style*="left"][style*="top"] > .overlay-icon {
+    font-size: 1.1rem !important;
+  }
+
+  /* Title */
+  #title-ctn {
+    font-size: 3.5vw !important;
+  }
+
+  .hotspotControls {
+    width: calc(100% - 4em) !important;
+    margin: 0.4em 2em 0 !important;
+  }
+
+  .hotspotControls div[class^="control-"] {
+    margin: 0 0.8em !important;
+  }
+
+  /* 360 badge */
+  .ahh-360-badge {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .ahh-360-badge svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  /* Audio */
+  #fixed-footer audio {
+    height: 32px !important;
+    max-width: 220px !important;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .Modal {
+    width: 240px !important;
+  }
+
+  .overlay-ctn-show,
+  .overlay-ctn-map {
+    height: 34px !important;
+    padding: 0 8px !important;
+  }
+
+  .overlay-ctn-show .overlay-icon,
+  .overlay-ctn-map .overlay-icon {
+    font-size: 1.1rem !important;
+  }
+
+  .ahh-btn-label {
+    font-size: 0.65rem;
+  }
+
+  #overlay-content > div[style*="left"][style*="top"] {
+    width: 34px !important;
+    height: 34px !important;
+  }
+}
+
+/* ============================================================
+   LANDSCAPE MOBILE — Compact
+   ============================================================ */
+@media screen and (max-height: 500px) {
+  .menu-title {
+    padding: 0.8em 1.2em 0.6em !important;
+    font-size: 1.2em !important;
+  }
+
+  a[class^="menu-item"] {
+    padding: 0.7em 1.4em !important;
+  }
+
+  .ahh-menu-org-name {
+    padding: 0.1em 1.8em 0.6em;
+    font-size: 0.8em;
+  }
+
+  .overlay-ctn-show,
+  .overlay-ctn-map {
+    height: 32px !important;
+    padding: 0 8px !important;
+  }
+
+  .overlay-ctn-show .overlay-icon,
+  .overlay-ctn-map .overlay-icon {
+    font-size: 1rem !important;
+  }
+
+  .ahh-btn-label {
+    font-size: 0.6rem;
+  }
+}
