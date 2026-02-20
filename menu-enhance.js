@@ -6,15 +6,9 @@
 (function () {
     'use strict';
 
-    // Icon mapping for menu items
-    var MENU_ICONS = {
-        'services': '�',
-        'contact': '�',
-        'library': '📚',
-        'help': '❓'
-    };
-
     var debounceTimer = null;
+    var overlayBtnsEnhanced = false;
+    var overlayCloseSetup = false;
 
     /**
      * Get the current organization name from the hotspot title
@@ -25,26 +19,6 @@
             return titleEl.textContent.trim();
         }
         return null;
-    }
-
-    /**
-     * Add icon to a menu link element
-     */
-    function addIconToLink(link) {
-        if (link.querySelector('.ahh-menu-icon')) return;
-
-        var text = (link.textContent || '').trim().toLowerCase();
-
-        for (var key in MENU_ICONS) {
-            if (text.indexOf(key) !== -1) {
-                var iconSpan = document.createElement('span');
-                iconSpan.className = 'ahh-menu-icon';
-                iconSpan.textContent = MENU_ICONS[key];
-                iconSpan.setAttribute('aria-hidden', 'true');
-                link.insertBefore(iconSpan, link.firstChild);
-                break;
-            }
-        }
     }
 
     /**
@@ -68,12 +42,6 @@
             }
         }
 
-        // Add icons to all menu links
-        var links = menuContent.querySelectorAll('a[class^="menu-item"]');
-        for (var i = 0; i < links.length; i++) {
-            addIconToLink(links[i]);
-        }
-
         // Add divider between navigation-menu and media-menu
         var navMenu = menuContent.querySelector('.navigation-menu');
         var mediaMenu = menuContent.querySelector('.media-menu');
@@ -82,6 +50,122 @@
             divider.className = 'ahh-menu-divider';
             mediaMenu.parentNode.insertBefore(divider, mediaMenu);
         }
+    }
+
+    /**
+     * Close menu when clicking outside the drawer.
+     * Uses document-level mousedown — more reliable than overlay click.
+     */
+    function setupOverlayClose() {
+        if (overlayCloseSetup) return;
+        overlayCloseSetup = true;
+
+        document.addEventListener('mousedown', function (e) {
+            var modalContent = document.querySelector('.ReactModal__Content');
+            if (!modalContent) return; // modal not open
+
+            // If click is inside the modal content, do nothing
+            if (modalContent.contains(e.target)) return;
+
+            // Check the overlay is actually open
+            var overlay = document.querySelector('.ReactModal__Overlay');
+            if (!overlay) return;
+
+            // Click was outside the modal — close it by dispatching click on close button
+            var closeBtn = overlay.querySelector('.closeBtn');
+            if (closeBtn) {
+                closeBtn.dispatchEvent(new MouseEvent('click', {
+                    bubbles: true,
+                    cancelable: true,
+                    view: window
+                }));
+            }
+        });
+    }
+
+    /**
+     * Enhance the 360 overlay buttons with text labels and make
+     * the entire button area clickable (not just the icon SVG).
+     */
+    function enhanceOverlayButtons() {
+        if (overlayBtnsEnhanced) return;
+
+        var showBtn = document.querySelector('.overlay-ctn-show');
+        var mapBtn = document.querySelector('.overlay-ctn-map');
+
+        if (!showBtn || !mapBtn) return;
+
+        overlayBtnsEnhanced = true;
+
+        // Make the entire container clickable by forwarding clicks to the inner icon.
+        // React only binds onClick on the FontAwesome SVG (.overlay-icon), not the container div.
+        // We use dispatchEvent with a real MouseEvent so React's delegated handler picks it up.
+        function makeFullyClickable(container) {
+            container.addEventListener('click', function (e) {
+                var clickedIcon = e.target.closest('.overlay-icon');
+                if (clickedIcon) return; // already hit the icon, let React handle it
+
+                var icon = container.querySelector('.overlay-icon');
+                if (icon) {
+                    e.stopPropagation();
+                    icon.dispatchEvent(new MouseEvent('click', {
+                        bubbles: true,
+                        cancelable: true,
+                        view: window
+                    }));
+                }
+            });
+        }
+
+        // Enhance the "Reset View" button (left — eye icon)
+        if (!showBtn.querySelector('.ahh-btn-label')) {
+            var resetLabel = document.createElement('span');
+            resetLabel.className = 'ahh-btn-label';
+            resetLabel.textContent = 'Reset View';
+            showBtn.appendChild(resetLabel);
+            showBtn.classList.add('ahh-labeled-btn');
+            makeFullyClickable(showBtn);
+        }
+
+        // Enhance the "Back to Map" button (right — map icon)
+        if (!mapBtn.querySelector('.ahh-btn-label')) {
+            var mapLabel = document.createElement('span');
+            mapLabel.className = 'ahh-btn-label';
+            mapLabel.textContent = 'Back to Map';
+            mapBtn.appendChild(mapLabel);
+            mapBtn.classList.add('ahh-labeled-btn');
+            makeFullyClickable(mapBtn);
+        }
+    }
+
+    /**
+     * Make the hamburger menu container fully clickable.
+     * React only binds onClick on the inner SVG, not the wrapper div.
+     */
+    var hamburgerEnhanced = false;
+    function enhanceHamburger() {
+        if (hamburgerEnhanced) return;
+        var overlayContent = document.getElementById('overlay-content');
+        if (!overlayContent) return;
+
+        // The hamburger is the first child div of #overlay-content (has inline style with left/top)
+        var hamburgerContainer = overlayContent.querySelector('div[style]');
+        if (!hamburgerContainer) return;
+
+        var icon = hamburgerContainer.querySelector('.overlay-icon');
+        if (!icon) return;
+
+        hamburgerEnhanced = true;
+        hamburgerContainer.style.cursor = 'pointer';
+
+        hamburgerContainer.addEventListener('click', function (e) {
+            if (e.target.closest('.overlay-icon')) return; // already hit icon
+            icon.dispatchEvent(new MouseEvent('click', {
+                bubbles: true,
+                cancelable: true,
+                view: window
+            }));
+        });
     }
 
     /**
@@ -96,6 +180,12 @@
             }
             // Inject 360 badge on tour page
             inject360Badge();
+            // Enhance overlay buttons with text labels
+            enhanceOverlayButtons();
+            // Make hamburger container fully clickable
+            enhanceHamburger();
+            // Highlight owner marker on map
+            highlightOwnerMarker();
         }, 150);
     }
 
@@ -133,11 +223,62 @@
     }
 
     /**
+     * Highlight the website owner's marker (Bayard Rustin / AAC) on the map.
+     * The compiled React code ignores pin_color (iconUrl is hardcoded),
+     * so we swap the icon via DOM after Leaflet renders the markers.
+     */
+    var ownerMarkerHighlighted = false;
+    var OWNER_NAME = 'Bayard Rustin LGBTQ+ Center | Akron AIDS Collaborative';
+
+    // Red map pin as inline SVG data URI (no external dependency)
+    var RED_PIN_SVG = 'data:image/svg+xml,' + encodeURIComponent(
+        '<svg xmlns="http://www.w3.org/2000/svg" width="25" height="41" viewBox="0 0 25 41">' +
+        '<path d="M12.5 0C5.6 0 0 5.6 0 12.5C0 21.9 12.5 41 12.5 41S25 21.9 25 12.5C25 5.6 19.4 0 12.5 0Z" fill="#e63946" stroke="#b71c1c" stroke-width="1"/>' +
+        '<circle cx="12.5" cy="12.5" r="5.5" fill="white"/>' +
+        '<circle cx="12.5" cy="12.5" r="3" fill="#e63946"/>' +
+        '</svg>'
+    );
+
+    function highlightOwnerMarker() {
+        if (ownerMarkerHighlighted) return;
+
+        // Only run on the map page
+        var mapContainer = document.querySelector('.leaflet-container');
+        if (!mapContainer) return;
+
+        // Find all Leaflet marker images and match by title
+        var markers = document.querySelectorAll('.leaflet-marker-icon');
+        for (var i = 0; i < markers.length; i++) {
+            var marker = markers[i];
+            if (marker.getAttribute('title') === OWNER_NAME) {
+                ownerMarkerHighlighted = true;
+                marker.src = RED_PIN_SVG;
+                marker.style.width = '23px';
+                marker.style.height = '41px';
+                marker.style.zIndex = '1000';
+                // Add a subtle pulsing glow via CSS animation
+                if (!document.getElementById('ahh-owner-marker-style')) {
+                    var style = document.createElement('style');
+                    style.id = 'ahh-owner-marker-style';
+                    style.textContent =
+                        '@keyframes ahh-pulse { 0%, 100% { filter: drop-shadow(0 0 4px rgba(230,57,70,0.7)); } 50% { filter: drop-shadow(0 0 10px rgba(230,57,70,1)); } }';
+                    document.head.appendChild(style);
+                }
+                marker.style.animation = 'ahh-pulse 2s ease-in-out infinite';
+                break;
+            }
+        }
+    }
+
+    /**
      * Start observing — only watches #root for modal changes
      */
     function startObserver() {
         var root = document.getElementById('root');
         if (!root) return;
+
+        // Setup close-on-outside-click once (document level, doesn't need overlay to exist)
+        setupOverlayClose();
 
         var observer = new MutationObserver(function () {
             debouncedCheck();
@@ -161,11 +302,15 @@
     history.pushState = function () {
         origPushMenu.apply(this, arguments);
         badgeInjected = false;
-        setTimeout(function () { inject360Badge(); }, 600);
+        overlayBtnsEnhanced = false;
+        ownerMarkerHighlighted = false;
+        setTimeout(function () { inject360Badge(); enhanceOverlayButtons(); }, 600);
     };
 
     window.addEventListener('popstate', function () {
         badgeInjected = false;
-        setTimeout(function () { inject360Badge(); }, 600);
+        overlayBtnsEnhanced = false;
+        ownerMarkerHighlighted = false;
+        setTimeout(function () { inject360Badge(); enhanceOverlayButtons(); }, 600);
     });
 })();
